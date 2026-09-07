@@ -1,0 +1,182 @@
+{
+  "id": "peintre-pq-environnement-clientele",
+  "titre": "Environnement, clientèle, processus opérationnel et travail d'équipe",
+  "metier": "peintre",
+  "annee": 4,
+  "module": "Préparation PQ",
+  "version": "2026-09",
+  "cartes": [
+    {
+      "recto": "Deux objectifs de la LPE (Loi fédérale sur la protection de l'environnement) et ses deux grands principes ?",
+      "verso": "Objectifs : protéger l'être humain, la faune et la flore contre les atteintes nuisibles ; conserver durablement les bases naturelles de la vie (air, eau, sol). Principes : prévention (agir à la source) et pollueur-payeur (celui qui pollue supporte les coûts de l'assainissement)."
+    },
+    {
+      "recto": "Trois mesures qu'un atelier de carrosserie-peinture peut prendre pour protéger l'environnement ?",
+      "verso": "Utiliser des peintures hydrodiluables à faible teneur en COV, trier et stocker les déchets spéciaux dans des bacs étiquetés, installer des cabines avec filtres/abattement des COV, utiliser des pistolets HVLP."
+    },
+    {
+      "recto": "Quel est le but de la taxe d'incitation sur les COV en Suisse ?",
+      "verso": "Réduire l'émission de composés organiques volatils dans l'air (responsables du smog et de l'ozone troposphérique) en renchérissant les produits solvantés ; elle est remboursée aux entreprises qui captent et détruisent leurs COV."
+    },
+    {
+      "recto": "Qu'est-ce qu'un COV (composé organique volatil) ?",
+      "verso": "Une substance chimique carbonée qui s'évapore facilement à température ambiante (toluène, xylène, acétone, white-spirit) et contribue à la formation d'ozone troposphérique et au smog estival."
+    },
+    {
+      "recto": "Citez quatre déchets spéciaux d'un atelier de peinture et leur mode d'élimination.",
+      "verso": "Restes de peinture/vernis, solvants usés, chiffons imprégnés, filtres de cabine saturés : chacun stocké séparément dans un contenant étiqueté et fermé, remis à un éliminateur agréé."
+    },
+    {
+      "recto": "Qu'est-ce qu'un écosystème ?",
+      "verso": "Un ensemble formé d'une communauté d'êtres vivants et de leur environnement non vivant (sol, eau, air, climat), en interactions équilibrées. Exemple : une forêt, un lac."
+    },
+    {
+      "recto": "Trois substances utilisées en peinture particulièrement nuisibles à l'écosystème ?",
+      "verso": "Solvants organiques (toluène, xylène), métaux lourds dans certains pigments (plomb, chrome, cadmium), isocyanates des durcisseurs polyuréthane."
+    },
+    {
+      "recto": "Trois effets concrets des substances nocives d'un atelier de peinture sur l'écosystème ?",
+      "verso": "Pollution de l'air (ozone, smog), pollution de l'eau (solvants et métaux lourds dans les canalisations), pollution des sols (contamination durable, bioaccumulation dans la chaîne alimentaire)."
+    },
+    {
+      "recto": "Quelles sont les principales étapes du cycle de l'eau dans la nature ?",
+      "verso": "Évaporation, évapotranspiration, condensation, précipitations, ruissellement, infiltration."
+    },
+    {
+      "recto": "Effet de serre et réchauffement climatique : deux causes et deux conséquences ?",
+      "verso": "Causes : combustion des énergies fossiles (moteurs, chauffage, industrie), déforestation. Conséquences : fonte des glaciers, élévation du niveau des mers, événements climatiques extrêmes."
+    },
+    {
+      "recto": "Quatre signes extérieurs qui caractérisent l'apparence réussie d'une entreprise de carrosserie ?",
+      "verso": "Façade et vitrine propres et entretenues, véhicules d'entreprise propres et identifiés, atelier rangé et visible, vêtements de travail propres et homogènes."
+    },
+    {
+      "recto": "Pourquoi le client est-il essentiel au succès d'une entreprise de carrosserie ?",
+      "verso": "Il est la source de revenus de l'entreprise, et un client satisfait est son meilleur ambassadeur : fidélisation, recommandation, avis positifs en ligne."
+    },
+    {
+      "recto": "Quatre attentes typiques d'un client envers un peintre en carrosserie lors d'une réparation ?",
+      "verso": "Qualité irréprochable du travail, respect des délais annoncés, transparence sur les coûts, conseils professionnels et communication claire."
+    },
+    {
+      "recto": "Quatre attitudes pour mettre un client en confiance lors de la remise de son véhicule ?",
+      "verso": "Accueil poli et attentif, écoute active de sa demande, explication claire sans jargon, honnêteté sur les délais et les coûts."
+    },
+    {
+      "recto": "Quelles sont les grandes étapes du processus opérationnel, de la réception à la livraison du véhicule ?",
+      "verso": "Prise de contact, réception et constat, diagnostic et devis, commande des pièces, démontage, tôlerie, préparation peinture, application peinture, remontage, contrôle qualité, lavage, livraison."
+    },
+    {
+      "recto": "Pourquoi le contrôle qualité final et le lavage sont-ils importants avant la livraison ?",
+      "verso": "Le contrôle qualité évite réclamations et retravaux coûteux ; un véhicule propre valorise le travail effectué et renforce la satisfaction et la fidélisation du client."
+    },
+    {
+      "recto": "Qu'est-ce que la « formation d'équipe » (team building) ?",
+      "verso": "L'ensemble des actions qui renforcent la cohésion, la confiance et l'efficacité d'une équipe, pour qu'elle travaille de manière coordonnée vers un objectif commun."
+    },
+    {
+      "recto": "Quatre règles pour garantir un travail d'équipe réussi en atelier ?",
+      "verso": "Objectif commun clair, communication ouverte et respectueuse, répartition claire des rôles, entraide et reconnaissance du travail de chacun."
+    },
+    {
+      "recto": "Trois conséquences négatives d'un mauvais travail d'équipe dans un atelier ?",
+      "verso": "Retards de livraison par mauvaise coordination, erreurs et défauts qualité, conflits internes et perte de motivation — voire perte de clients."
+    },
+    {
+      "recto": "Qu'est-ce que la qualité dans une entreprise de carrosserie-peinture, et deux conséquences positives d'un travail de qualité ?",
+      "verso": "La conformité du travail aux exigences du client et aux règles du métier — qualité technique, de service et relationnelle. Conséquences : fidélisation et réputation renforcée, réduction des retravaux et des litiges."
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Quel principe veut que celui qui pollue supporte les coûts de l'assainissement ?",
+      "options": ["Le principe de prévention", "Le principe du pollueur-payeur", "Le principe de précaution", "Le principe de subsidiarité"],
+      "reponse": 1,
+      "explication": "Le principe du pollueur-payeur veut que celui qui est à l'origine d'une atteinte à l'environnement supporte les coûts de l'assainissement et des mesures de prévention."
+    },
+    {
+      "question": "La taxe d'incitation sur les COV est perçue notamment sur :",
+      "options": ["La vente de véhicules d'occasion", "L'importation et la fabrication de produits contenant des COV", "Le nombre d'employés de l'entreprise", "La consommation d'électricité de l'atelier"],
+      "reponse": 1,
+      "explication": "Elle est perçue sur l'importation et la fabrication des produits contenant des COV (solvants, peintures, colles), pour inciter à réduire leur usage."
+    },
+    {
+      "question": "Lequel de ces types de peinture contient le plus de COV ?",
+      "options": ["Une peinture hydrodiluable", "Une peinture solvantée", "Une peinture en poudre", "Un vernis à l'eau"],
+      "reponse": 1,
+      "explication": "Les produits solvantés contiennent davantage de composés organiques volatils que les produits à base aqueuse (hydrodiluables)."
+    },
+    {
+      "question": "Un pistolet HVLP permet notamment de :",
+      "options": ["Chauffer la peinture avant application", "Augmenter l'efficacité de transfert et réduire les pertes de produit", "Remplacer le ponçage", "Éliminer le besoin de cabine de peinture"],
+      "reponse": 1,
+      "explication": "HVLP (High Volume Low Pressure) offre une meilleure efficacité de transfert, ce qui réduit le gaspillage de peinture et les émissions de COV."
+    },
+    {
+      "question": "Des chiffons imprégnés de solvant doivent être stockés :",
+      "options": ["Dans un sac plastique fermé", "Dans une poubelle métallique à couvercle, à cause du risque d'auto-inflammation", "Dans le bac à peinture", "N'importe où, ce ne sont pas des déchets spéciaux"],
+      "reponse": 1,
+      "explication": "Les chiffons imprégnés de solvant ou de peinture présentent un risque d'auto-inflammation et doivent être stockés dans une poubelle métallique à couvercle, comme déchet spécial."
+    },
+    {
+      "question": "Le cycle de l'eau dans la nature commence par :",
+      "options": ["La précipitation", "L'évaporation", "L'infiltration", "Le ruissellement"],
+      "reponse": 1,
+      "explication": "L'eau des mers, lacs et cours d'eau s'évapore sous l'effet du soleil : c'est la première étape du cycle de l'eau."
+    },
+    {
+      "question": "L'effet de serre est :",
+      "options": ["Un phénomène uniquement causé par l'être humain", "Un phénomène naturel qui, amplifié par l'activité humaine, provoque le réchauffement climatique", "Sans lien avec le CO2", "Limité au secteur automobile"],
+      "reponse": 1,
+      "explication": "L'effet de serre est un phénomène naturel qui maintient une température vivable sur Terre ; les activités humaines en augmentent l'intensité, ce qui provoque le réchauffement climatique."
+    },
+    {
+      "question": "Parmi les causes principales du réchauffement climatique liées au secteur automobile, on trouve :",
+      "options": ["La combustion des énergies fossiles par les moteurs", "Le recyclage des pièces automobiles", "L'entretien régulier des véhicules", "Le contrôle technique"],
+      "reponse": 0,
+      "explication": "La combustion des énergies fossiles (moteurs à essence et diesel) est une des causes principales de l'augmentation des gaz à effet de serre."
+    },
+    {
+      "question": "Un client satisfait est avant tout :",
+      "options": ["Une charge pour l'entreprise", "Le meilleur ambassadeur de l'entreprise", "Sans impact sur le chiffre d'affaires", "Uniquement intéressé par le prix"],
+      "reponse": 1,
+      "explication": "Un client satisfait fidélise, recommande l'entreprise à son entourage et laisse des avis positifs — un effet publicitaire gratuit et très efficace."
+    },
+    {
+      "question": "Parmi les attentes typiques d'un client, laquelle concerne la transparence ?",
+      "options": ["Un devis clair, sans mauvaise surprise sur la facture", "Un délai le plus court possible quel que soit le prix", "Un rabais systématique", "Un contact uniquement par téléphone"],
+      "reponse": 0,
+      "explication": "La transparence sur les coûts, avec un devis clair, fait partie des attentes typiques d'un client envers un peintre en carrosserie."
+    },
+    {
+      "question": "Quelle est la dernière étape du processus opérationnel, de la réception à la livraison du véhicule ?",
+      "options": ["Le diagnostic technique", "La commande des pièces", "La livraison au client, avec remise des clés et garantie", "L'application de la peinture"],
+      "reponse": 2,
+      "explication": "Le processus se termine par la livraison au client : présentation du travail, facturation, remise des clés et de la garantie."
+    },
+    {
+      "question": "Le lavage du véhicule avant la livraison sert principalement à :",
+      "options": ["Faire gagner du temps à l'atelier", "Montrer au client que son véhicule a été soigné et valoriser le travail effectué", "Remplacer le contrôle qualité", "Économiser sur les produits d'entretien"],
+      "reponse": 1,
+      "explication": "Un véhicule propre est un signe de professionnalisme qui renforce la perception de qualité globale et la satisfaction du client."
+    },
+    {
+      "question": "Le « team building » désigne :",
+      "options": ["Un logiciel de gestion d'atelier", "Les actions qui renforcent la cohésion et l'efficacité d'une équipe", "Une norme de qualité ISO", "Un type de peinture"],
+      "reponse": 1,
+      "explication": "Le team building regroupe les actions mises en place pour créer ou renforcer la cohésion, la confiance et l'efficacité entre les membres d'une équipe."
+    },
+    {
+      "question": "Une conséquence typique d'un mauvais travail d'équipe en atelier est :",
+      "options": ["Une meilleure ambiance de travail", "Des retards de livraison dus à une mauvaise coordination", "Une réduction des coûts", "Une clientèle plus fidèle"],
+      "reponse": 1,
+      "explication": "Une mauvaise coordination entre tôlerie et peinture, par exemple, provoque des retards dans la livraison des véhicules."
+    },
+    {
+      "question": "La qualité dans une entreprise de carrosserie-peinture englobe :",
+      "options": ["Uniquement la qualité technique de la réparation", "La qualité technique, la qualité de service et la qualité des relations avec le client", "Uniquement le respect des délais", "Uniquement le prix pratiqué"],
+      "reponse": 1,
+      "explication": "La qualité couvre la conformité technique du travail, la qualité du service (accueil, conseil, délais) et la qualité de la relation avec le client."
+    }
+  ]
+}
