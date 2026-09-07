@@ -1,0 +1,242 @@
+{
+  "id": "tolier-construction-materiaux-carrosserie",
+  "titre": "Construction et matériaux de carrosserie",
+  "metier": "tolier",
+  "annee": 4,
+  "module": "Préparation PQ",
+  "version": "2026-09",
+  "cartes": [
+    {
+      "recto": "Pourquoi alléger une carrosserie ?",
+      "verso": "Pour réduire l'énergie nécessaire à l'accélération, améliorer la consommation ou l'autonomie et augmenter la charge utile — sans sacrifier la rigidité, la résistance aux chocs, la durabilité ni la réparabilité."
+    },
+    {
+      "recto": "Qu'est-ce qu'une caisse autoporteuse (monocoque) ?",
+      "verso": "La carrosserie et la structure porteuse forment un seul ensemble. Bonne rigidité, masse réduite, adaptée à la production en grande série."
+    },
+    {
+      "recto": "Qu'est-ce qu'une structure de type Space Frame ?",
+      "verso": "Un réseau de profilés/poutres qui portent les panneaux, souvent en aluminium. Bonne rigidité pour une masse contenue ; assemblages spécifiques (collage, rivetage, soudage aluminium)."
+    },
+    {
+      "recto": "Citez trois matériaux légers courants et un exemple d'utilisation pour chacun.",
+      "verso": "Aluminium (capots, portes, ailes), aciers à haute résistance (montants, bas de caisse, renforts), composites GFRP/CFRP (panneaux, monocoques haut de gamme)."
+    },
+    {
+      "recto": "Qu'est-ce qu'un cahier des charges ?",
+      "verso": "Un document qui décrit les exigences à respecter : fonction, dimensions, masse, coût, sécurité, délai, réglementation, qualité."
+    },
+    {
+      "recto": "Qu'est-ce que le développement d'un concept ?",
+      "verso": "La recherche et la comparaison de plusieurs solutions avant de choisir une architecture, par exemple comparer acier, aluminium et structure mixte."
+    },
+    {
+      "recto": "Qu'est-ce que l'ergonomie en carrosserie ?",
+      "verso": "L'adaptation du produit à l'utilisateur pour favoriser confort, sécurité et efficacité : hauteur de chargement, accessibilité des commandes, visibilité."
+    },
+    {
+      "recto": "Qu'est-ce que la construction modulaire ?",
+      "verso": "Une conception en sous-ensembles standardisés pouvant être assemblés ou remplacés : face avant modulaire, plancher, module de toit, éléments de caisse interchangeables."
+    },
+    {
+      "recto": "Quelles sont les grandes étapes de la production industrielle d'une carrosserie ?",
+      "verso": "Emboutissage, assemblage (caisse en blanc), soudage, traitement anticorrosion, peinture, contrôle qualité."
+    },
+    {
+      "recto": "Que signifie « caisse en blanc » (Body-in-White) ?",
+      "verso": "La caisse assemblée avant peinture et avant le montage final des autres organes."
+    },
+    {
+      "recto": "Qu'est-ce qu'une construction mixte, et pourquoi isole-t-on l'acier de l'aluminium quand ils sont associés ?",
+      "verso": "Une construction mixte associe plusieurs matériaux dans une même structure, chacun utilisé là où il est le plus performant. On les isole pour limiter la corrosion galvanique lorsque deux métaux différents sont en contact en présence d'humidité ou d'un électrolyte."
+    },
+    {
+      "recto": "Que signifie l'OETV et à quoi sert-elle ?",
+      "verso": "L'Ordonnance concernant les exigences techniques requises pour les véhicules routiers (RS 741.41). Elle fixe les exigences techniques des véhicules : dimensions, poids, éclairage, pneus, construction."
+    },
+    {
+      "recto": "Comment calcule-t-on la charge utile d'un véhicule ?",
+      "verso": "Charge utile = masse totale autorisée (ou PTAC) moins la tare (masse à vide)."
+    },
+    {
+      "recto": "Quelle est la profondeur minimale légale du profil d'un pneu ?",
+      "verso": "En règle générale 1,6 mm sur la bande de roulement, sous réserve de cas particuliers prévus par l'ordonnance."
+    },
+    {
+      "recto": "Quelle est la différence entre une brame et une billette ?",
+      "verso": "La brame est un demi-produit plutôt destiné aux tôles ; la billette est un demi-produit plutôt destiné aux profilés ou produits longs."
+    },
+    {
+      "recto": "Quel est l'intérêt principal du laminage à froid par rapport au laminage à chaud ?",
+      "verso": "Obtenir une meilleure précision dimensionnelle, un meilleur état de surface et certaines propriétés mécaniques."
+    },
+    {
+      "recto": "Quelle est la principale différence de teneur en carbone entre l'acier et la fonte ?",
+      "verso": "L'acier a une teneur en carbone inférieure à environ 2,1 % ; la fonte a une teneur généralement supérieure à 2,1 %, souvent 2,5 à 4 %."
+    },
+    {
+      "recto": "Pourquoi la fonte convient-elle bien aux pièces moulées complexes ?",
+      "verso": "Parce qu'elle possède une bonne coulabilité, ce qui permet d'obtenir des formes complexes."
+    },
+    {
+      "recto": "Quel effet général a une augmentation du taux de carbone dans l'acier ?",
+      "verso": "Elle augmente la dureté et la résistance, mais peut réduire la ductilité et la soudabilité."
+    },
+    {
+      "recto": "Comment lit-on la désignation S355 ?",
+      "verso": "S = acier de construction (structural) ; 355 ≈ limite d'élasticité minimale en MPa."
+    },
+    {
+      "recto": "Comment lit-on la désignation C45 ?",
+      "verso": "C = acier non allié ; 45 = teneur moyenne en carbone d'environ 0,45 % (en masse)."
+    },
+    {
+      "recto": "Citez trois pièces automobiles couramment réalisées en métal ferreux coulé.",
+      "verso": "Disque ou tambour de frein, bloc moteur (certaines conceptions), collecteur d'échappement, carter/boîtier, volant moteur."
+    },
+    {
+      "recto": "Quelle est la formule du poids (force de gravité) ?",
+      "verso": "F = m × g, avec g ≈ 9,81 m/s². Exemple : pour une masse de 100 kg, F ≈ 981 N."
+    },
+    {
+      "recto": "Pourquoi une charge lourde placée sur le toit réduit-elle la stabilité du véhicule ?",
+      "verso": "Elle élève le centre de gravité, ce qui réduit la stabilité latérale et augmente le risque de roulis ou de basculement."
+    },
+    {
+      "recto": "Que signifient les sigles AHSS et UHSS ?",
+      "verso": "AHSS : Advanced High Strength Steel (acier à haute résistance avancé). UHSS : Ultra High Strength Steel (acier à très haute résistance)."
+    },
+    {
+      "recto": "Qu'est-ce que la ductilité, et qu'est-ce que la trempabilité ?",
+      "verso": "La ductilité est la capacité d'un matériau à se déformer plastiquement avant rupture. La trempabilité est l'aptitude d'un acier à former une structure dure lors d'un traitement adapté."
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Une construction légère est nécessairement réalisée en aluminium.",
+      "options": ["Vrai", "Faux"],
+      "reponse": 1,
+      "explication": "L'allègement peut aussi être obtenu par la géométrie, la réduction d'épaisseur, l'emploi d'aciers AHSS/UHSS, de profilés creux ou de matériaux composites."
+    },
+    {
+      "question": "Qu'est-ce qui différencie une structure autoporteuse (monocoque) d'une structure à châssis séparé ?",
+      "options": ["Dans la monocoque, la carrosserie et la structure porteuse ne font qu'un ; dans le châssis séparé, la carrosserie est fixée sur un châssis indépendant", "La monocoque est toujours plus lourde", "Le châssis séparé n'existe que sur les voitures de sport", "Il n'y a aucune différence, ce sont deux noms pour la même chose"],
+      "reponse": 0,
+      "explication": "La caisse autoporteuse assure à la fois la fonction structurelle et la forme extérieure, alors que le châssis séparé porte la carrosserie fixée dessus."
+    },
+    {
+      "question": "Le cahier des charges d'un véhicule décrit notamment :",
+      "options": ["Uniquement le style extérieur souhaité", "Les exigences à respecter : fonction, dimensions, masse, coût, sécurité, délai, réglementation, qualité", "Le nom des fournisseurs de pièces", "Seulement le prix de vente"],
+      "reponse": 1,
+      "explication": "Le cahier des charges transforme un besoin en exigences claires, mesurables et vérifiables."
+    },
+    {
+      "question": "L'ergonomie n'a aucun lien avec la sécurité d'un véhicule.",
+      "options": ["Vrai", "Faux"],
+      "reponse": 1,
+      "explication": "Une bonne visibilité, une bonne accessibilité et une bonne position d'utilisation réduisent les erreurs et améliorent la sécurité."
+    },
+    {
+      "question": "Quel est l'intérêt principal de la construction modulaire ?",
+      "options": ["Elle facilite l'assemblage, le remplacement de sous-ensembles, la standardisation et parfois la réparation", "Elle rend chaque véhicule totalement unique", "Elle supprime le besoin de cahier des charges", "Elle ne s'applique qu'à la peinture"],
+      "reponse": 0,
+      "explication": "La construction modulaire permet la conception modulaire, l'assemblage optimisé et des pièces standardisées."
+    },
+    {
+      "question": "Que signifie l'expression « caisse en blanc » (Body-in-White) ?",
+      "options": ["Une carrosserie déjà peinte en blanc", "La caisse assemblée avant peinture et avant le montage final des autres organes", "Une caisse en aluminium uniquement", "Une caisse prête à être livrée au client"],
+      "reponse": 1,
+      "explication": "C'est le stade de la caisse une fois soudée, avant les étapes de peinture et de montage final."
+    },
+    {
+      "question": "Le traitement anticorrosion appliqué après l'assemblage protège durablement la carrosserie et prépare aussi la surface à la peinture.",
+      "options": ["Vrai", "Faux"],
+      "reponse": 0,
+      "explication": "C'est notamment le rôle de la cataphorèse, appliquée avant la mise en peinture."
+    },
+    {
+      "question": "Pourquoi faut-il isoler l'acier et l'aluminium lorsqu'ils sont associés dans une même structure ?",
+      "options": ["Pour limiter la corrosion galvanique en présence d'humidité", "Pour améliorer l'esthétique", "Parce que la loi l'interdit sans isolation", "Pour réduire le poids du véhicule"],
+      "reponse": 0,
+      "explication": "Une corrosion accélérée peut apparaître entre deux métaux différents en présence d'un électrolyte, d'où l'utilisation de couches d'isolation."
+    },
+    {
+      "question": "Selon l'OETV, comment calcule-t-on la charge utile d'un véhicule ?",
+      "options": ["Charge utile = masse totale autorisée moins la tare", "Charge utile = tare + masse totale", "Charge utile = poids du conducteur uniquement", "Charge utile = volume du coffre en litres"],
+      "reponse": 0,
+      "explication": "La charge utile est la différence disponible pour les personnes et le chargement, selon les valeurs autorisées du véhicule."
+    },
+    {
+      "question": "Quelle est la profondeur minimale légale du profil d'un pneu sur la bande de roulement ?",
+      "options": ["0,8 mm", "1,6 mm", "3,0 mm", "5,0 mm"],
+      "reponse": 1,
+      "explication": "1,6 mm est la profondeur minimale légale usuelle, sous réserve de cas particuliers prévus par l'ordonnance."
+    },
+    {
+      "question": "Après une réparation touchant l'avant ou l'arrière du véhicule, il n'est pas nécessaire de contrôler le positionnement et le réglage des dispositifs d'éclairage.",
+      "options": ["Vrai", "Faux"],
+      "reponse": 1,
+      "explication": "Il faut au contraire contrôler la présence, la fixation, la symétrie, la couleur, le positionnement et le réglage des dispositifs lumineux."
+    },
+    {
+      "question": "Quelle est la différence entre une brame et une billette dans la production de tôles et profilés ?",
+      "options": ["La brame est destinée aux tôles, la billette plutôt aux profilés ou produits longs", "Ce sont deux noms pour le même demi-produit", "La billette sert uniquement à fabriquer des pneus", "La brame est un produit fini, la billette un demi-produit"],
+      "reponse": 0,
+      "explication": "Ce sont deux demi-produits issus de la coulée continue, orientés vers des usages différents."
+    },
+    {
+      "question": "Quel est l'intérêt principal du laminage à froid par rapport au laminage à chaud ?",
+      "options": ["Une forte réduction d'épaisseur uniquement", "Une meilleure précision dimensionnelle, un meilleur état de surface et certaines propriétés mécaniques", "Un coût de production toujours plus faible", "La suppression du besoin de revêtement anticorrosion"],
+      "reponse": 1,
+      "explication": "Le laminage à chaud réduit fortement l'épaisseur ; le laminage à froid affine ensuite la précision et l'état de surface."
+    },
+    {
+      "question": "Par rapport à l'acier, la fonte a généralement :",
+      "options": ["Une teneur en carbone inférieure", "Une teneur en carbone supérieure, souvent 2,5 à 4 %", "Exactement la même teneur en carbone", "Aucun carbone"],
+      "reponse": 1,
+      "explication": "La fonte est un alliage fer-carbone à forte teneur en carbone, contrairement à l'acier."
+    },
+    {
+      "question": "La fonte se prête généralement bien au soudage courant, sans précaution particulière.",
+      "options": ["Vrai", "Faux"],
+      "reponse": 1,
+      "explication": "La fonte peut fissurer plus facilement et nécessite une procédure adaptée aux contraintes thermiques."
+    },
+    {
+      "question": "Une augmentation du taux de carbone dans l'acier tend à :",
+      "options": ["Diminuer la dureté et augmenter la ductilité", "Augmenter la dureté et la résistance, mais réduire la ductilité et la soudabilité", "N'avoir aucun effet", "Transformer l'acier en aluminium"],
+      "reponse": 1,
+      "explication": "Le carbone influence fortement la dureté, la résistance mécanique, la trempabilité et la soudabilité de l'acier."
+    },
+    {
+      "question": "Dans la désignation S355, que représente le nombre 355 ?",
+      "options": ["Le poids de la pièce en kg", "La limite d'élasticité minimale en MPa", "La température de fusion en °C", "Le pourcentage de carbone"],
+      "reponse": 1,
+      "explication": "S355 désigne un acier de construction avec une limite d'élasticité minimale de 355 MPa."
+    },
+    {
+      "question": "Dans la désignation C45, le nombre 45 représente approximativement :",
+      "options": ["La teneur en carbone en % (0,45 %)", "La limite d'élasticité en MPa", "Le diamètre de la pièce en mm", "Le poids en kg"],
+      "reponse": 0,
+      "explication": "C45 désigne un acier non allié contenant environ 0,45 % de carbone."
+    },
+    {
+      "question": "Laquelle de ces pièces automobiles est le plus souvent réalisée en métal ferreux coulé ?",
+      "options": ["Le pare-brise", "Le disque de frein", "Le pare-chocs plastique", "Le faisceau électrique"],
+      "reponse": 1,
+      "explication": "Le disque de frein est typiquement réalisé en fonte grise, pour sa bonne tenue à la chaleur et à l'usure."
+    },
+    {
+      "question": "Quelle est la formule du poids (force de gravité) d'un objet ?",
+      "options": ["F = m ÷ g", "F = m × g", "F = m + g", "F = g ÷ m"],
+      "reponse": 1,
+      "explication": "Le poids est une force liée à la gravité : F = m × g, avec g ≈ 9,81 m/s²."
+    },
+    {
+      "question": "Une charge lourde placée sur le toit d'un véhicule abaisse son centre de gravité et améliore sa stabilité.",
+      "options": ["Vrai", "Faux"],
+      "reponse": 1,
+      "explication": "Elle élève au contraire le centre de gravité, ce qui réduit la stabilité latérale et augmente le risque de roulis ou de basculement."
+    }
+  ]
+}
