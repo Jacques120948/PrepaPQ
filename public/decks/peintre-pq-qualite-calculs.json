@@ -1,0 +1,156 @@
+{
+  "id": "peintre-pq-qualite-calculs",
+  "titre": "Qualité et calculs professionnels (pourcentage, rabais, intérêts, VME, peinture)",
+  "metier": "peintre",
+  "annee": 4,
+  "module": "Préparation PQ",
+  "version": "2026-09",
+  "cartes": [
+    {
+      "recto": "Citez quatre caractéristiques qui définissent la qualité d'une réparation de carrosserie-peinture.",
+      "verso": "Conformité technique (teinte raccord), finition irréprochable (pas de coulures ni de poussières), durabilité, respect des délais et du devis — aussi : propreté à la livraison, fonctionnalité, traçabilité."
+    },
+    {
+      "recto": "Citez quatre points importants de l'assurance qualité dans un atelier de carrosserie-peinture.",
+      "verso": "Standards clairs (fiches techniques, check-lists), formation régulière des collaborateurs, contrôles intermédiaires à chaque étape, outils de mesure fiables (spectrophotomètre, jauge d'épaisseur)."
+    },
+    {
+      "recto": "Citez trois raisons pour lesquelles les exigences de qualité ont fortement augmenté dans le secteur automobile.",
+      "verso": "Clientèle plus informée et exigeante, véhicules modernes plus complexes (ADAS, matériaux nouveaux), concurrence accrue entre carrosseries — aussi : exigences des assurances et des constructeurs."
+    },
+    {
+      "recto": "Comment calcule-t-on le montant de la TVA et le total TTC d'une facture ?",
+      "verso": "TVA = montant HT × taux ÷ 100. Total TTC = HT + TVA. Exemple : 3'450.00 Fr HT à 8,1 % → TVA = 279.45 Fr → TTC = 3'729.45 Fr."
+    },
+    {
+      "recto": "Comment calcule-t-on une augmentation en pourcentage entre deux chiffres d'affaires ?",
+      "verso": "Augmentation en % = (augmentation absolue ÷ valeur de départ) × 100. Exemple : de 425'000 à 468'500 Fr → +43'500 Fr, soit +10,2 %."
+    },
+    {
+      "recto": "Quelle est la différence entre un rabais et un escompte ?",
+      "verso": "Le rabais est une réduction sur le prix de vente (volume, fidélité), appliquée directement sur la facture. L'escompte est une réduction supplémentaire pour paiement rapide, calculée sur le montant net après rabais."
+    },
+    {
+      "recto": "Comment calcule-t-on le montant final d'une facture avec rabais puis escompte ?",
+      "verso": "Net après rabais = brut − (brut × taux de rabais ÷ 100). Montant final = net − (net × taux d'escompte ÷ 100). Exemple : 4'800.00 Fr, rabais 12 % puis escompte 2 % → 4'139.50 Fr."
+    },
+    {
+      "recto": "Comment calcule-t-on le pourcentage de rabais accordé, à partir du prix catalogue et du prix payé ?",
+      "verso": "Taux de rabais = (montant du rabais ÷ prix catalogue) × 100, avec montant du rabais = prix catalogue − prix payé."
+    },
+    {
+      "recto": "Quelle est la formule de l'intérêt simple ?",
+      "verso": "Intérêt = Capital × taux × temps ÷ 100, le temps étant exprimé en années (ou en fraction d'année pour une durée plus courte)."
+    },
+    {
+      "recto": "Comment calcule-t-on les intérêts totaux et la somme remboursée d'un emprunt ?",
+      "verso": "Intérêt = C × t × n ÷ 100. Somme remboursée = capital + intérêts. Exemple : 45'000 Fr à 3,5 % sur 4 ans → 6'300 Fr d'intérêts, soit 51'300 Fr remboursés."
+    },
+    {
+      "recto": "Comment calcule-t-on l'intérêt d'un placement de moins d'un an ?",
+      "verso": "On convertit la durée en fraction d'année (ex : 6 mois = 0,5 an) avant d'appliquer la formule Intérêt = C × t × n ÷ 100."
+    },
+    {
+      "recto": "Qu'est-ce que la valeur VME (Valeur Moyenne d'Exposition) et à quoi sert-elle ?",
+      "verso": "La concentration maximale moyenne d'une substance dangereuse à laquelle un travailleur peut être exposé sans risque, sur 8h par jour. Elle sert à contrôler l'atmosphère du poste de travail, dimensionner la ventilation et choisir les EPI adaptés."
+    },
+    {
+      "recto": "Comment calcule-t-on le pourcentage de la VME atteint par une mesure ?",
+      "verso": "Pourcentage atteint = (mesure ÷ VME) × 100. La marge de sécurité restante = 100 % moins ce pourcentage."
+    },
+    {
+      "recto": "Comment calcule-t-on les quantités de durcisseur et de diluant pour un mélange de peinture dans un rapport donné ?",
+      "verso": "On applique le même rapport que pour la base : quantité de chaque composant = (quantité de base ÷ part de la base) × sa propre part. Exemple : rapport 3:1:0,5 avec 450 ml de base → 150 ml de durcisseur, 75 ml de diluant."
+    },
+    {
+      "recto": "Comment calcule-t-on la quantité de peinture nécessaire en tenant compte du rendement, du nombre de couches et des pertes ?",
+      "verso": "Surface totale = surface × nombre de couches. Quantité théorique = surface totale ÷ rendement. Quantité réelle = quantité théorique × (1 + taux de perte). Exemple : 1,6 m² × 2 couches ÷ 8 m²/L = 0,4 L, majoré de 25 % → 0,5 L."
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Qu'est-ce qui distingue un rabais d'un escompte ?",
+      "options": ["Le rabais est lié à un paiement rapide, l'escompte au volume de commande", "Le rabais réduit le prix de vente, l'escompte récompense un paiement rapide", "Ce sont deux termes qui désignent exactement la même chose", "L'escompte s'applique uniquement aux entreprises publiques"],
+      "reponse": 1,
+      "explication": "Le rabais est une réduction sur le prix (volume, fidélité), l'escompte une réduction supplémentaire pour paiement rapide, calculée sur le montant net après rabais."
+    },
+    {
+      "question": "Une facture de 3'450.00 Fr hors TVA est soumise à une TVA de 8,1 %. Quel est le montant de la TVA ?",
+      "options": ["245.00 Fr", "279.45 Fr", "310.50 Fr", "345.00 Fr"],
+      "reponse": 1,
+      "explication": "TVA = 3'450.00 × 8,1 ÷ 100 = 279.45 Fr."
+    },
+    {
+      "question": "Un chiffre d'affaires passe de 425'000 Fr à 468'500 Fr. Quelle est l'augmentation en pourcentage (arrondie à une décimale) ?",
+      "options": ["8,5 %", "10,2 %", "12,0 %", "15,5 %"],
+      "reponse": 1,
+      "explication": "(43'500 ÷ 425'000) × 100 = 10,2 %."
+    },
+    {
+      "question": "Une facture brute de 4'800.00 Fr bénéficie d'un rabais de 12 %. Quel est le montant net après rabais ?",
+      "options": ["3'840.00 Fr", "4'139.50 Fr", "4'224.00 Fr", "4'560.00 Fr"],
+      "reponse": 2,
+      "explication": "Rabais = 4'800.00 × 12 ÷ 100 = 576.00 Fr. Net = 4'800.00 − 576.00 = 4'224.00 Fr."
+    },
+    {
+      "question": "Le prix catalogue d'un équipement est de 1'850.00 Fr ; le client paie 1'572.50 Fr après rabais. Quel est le taux de rabais accordé ?",
+      "options": ["10 %", "12 %", "15 %", "20 %"],
+      "reponse": 2,
+      "explication": "Rabais = 1'850.00 − 1'572.50 = 277.50 Fr. Taux = (277.50 ÷ 1'850.00) × 100 = 15 %."
+    },
+    {
+      "question": "Quelle est la formule de l'intérêt simple ?",
+      "options": ["I = C + t × n", "I = C × t × n ÷ 100", "I = C ÷ (t × n)", "I = (C × t) − n"],
+      "reponse": 1,
+      "explication": "L'intérêt simple est proportionnel au capital (C), au taux (t) et à la durée (n) : I = C × t × n ÷ 100."
+    },
+    {
+      "question": "Un emprunt de 45'000 Fr à un taux annuel de 3,5 % sur 4 ans. Quel est le montant total des intérêts ?",
+      "options": ["1'575 Fr", "4'500 Fr", "6'300 Fr", "9'000 Fr"],
+      "reponse": 2,
+      "explication": "I = 45'000 × 3,5 × 4 ÷ 100 = 6'300 Fr."
+    },
+    {
+      "question": "Un capital de 12'000 Fr est placé 6 mois à un taux annuel de 2,8 %. Quel est le montant des intérêts perçus ?",
+      "options": ["84 Fr", "168 Fr", "336 Fr", "672 Fr"],
+      "reponse": 1,
+      "explication": "I = 12'000 × 2,8 × 0,5 ÷ 100 = 168 Fr (6 mois = 0,5 année)."
+    },
+    {
+      "question": "Qu'est-ce que la VME (Valeur Moyenne d'Exposition) ?",
+      "options": ["Le prix moyen d'une substance dangereuse", "La concentration maximale moyenne d'une substance à laquelle un travailleur peut être exposé sans risque sur 8h", "La vitesse maximale d'évaporation d'un solvant", "Le volume moyen d'un pot de peinture"],
+      "reponse": 1,
+      "explication": "La VME sert à contrôler l'atmosphère du poste de travail, dimensionner la ventilation et choisir les EPI adaptés."
+    },
+    {
+      "question": "La VME du xylène est de 100 ppm ; la mesure au poste de travail est de 73 ppm sur 8h. Quel pourcentage de la VME est atteint ?",
+      "options": ["27 %", "57 %", "73 %", "100 %"],
+      "reponse": 2,
+      "explication": "Pourcentage atteint = (73 ÷ 100) × 100 = 73 %."
+    },
+    {
+      "question": "Pour un mélange peinture-durcisseur-diluant dans le rapport 3 : 1 : 0,5, avec 450 ml de base, quelle quantité de durcisseur faut-il ajouter ?",
+      "options": ["75 ml", "150 ml", "225 ml", "450 ml"],
+      "reponse": 1,
+      "explication": "450 ml ÷ 3 × 1 = 150 ml de durcisseur."
+    },
+    {
+      "question": "Une surface de 1,6 m² est peinte en 2 couches avec un rendement de 8 m²/litre. Quelle est la quantité théorique de peinture nécessaire (avant majoration pour pertes) ?",
+      "options": ["0,2 L", "0,4 L", "0,8 L", "1,6 L"],
+      "reponse": 1,
+      "explication": "Surface totale = 1,6 × 2 = 3,2 m². Quantité théorique = 3,2 ÷ 8 = 0,4 L."
+    },
+    {
+      "question": "En tenant compte d'une perte de 25 % sur une quantité théorique de 400 ml, quelle est la quantité de peinture prête à l'emploi nécessaire ?",
+      "options": ["300 ml", "400 ml", "500 ml", "600 ml"],
+      "reponse": 2,
+      "explication": "400 ml × (1 + 25 ÷ 100) = 400 × 1,25 = 500 ml."
+    },
+    {
+      "question": "Parmi ces éléments, lequel ne fait PAS partie de l'assurance qualité dans un atelier de carrosserie-peinture ?",
+      "options": ["Des contrôles intermédiaires à chaque étape", "La formation régulière des collaborateurs", "Le prix le plus bas possible, sans contrôle", "Des outils de mesure fiables (spectrophotomètre, jauge d'épaisseur)"],
+      "reponse": 2,
+      "explication": "L'assurance qualité repose sur des standards, des contrôles et des outils fiables — pas sur la réduction des coûts au détriment du contrôle."
+    }
+  ]
+}
