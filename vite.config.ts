@@ -4,8 +4,9 @@ import react from "@vitejs/plugin-react";
 import { defineConfig } from "vite";
 import { VitePWA } from "vite-plugin-pwa";
 
-// Nom du dépôt GitHub Pages : https://<compte>.github.io/prepapq/
-const BASE = "/prepapq/";
+// Nom du dépôt GitHub Pages (respecte la casse exacte du dépôt) :
+// https://<compte>.github.io/PrepaPQ/
+const BASE = "/PrepaPQ/";
 
 // https://vite.dev/config/
 export default defineConfig({
