@@ -4,8 +4,11 @@ import { Bandeau } from "../components/Bandeau";
 import { useDecks } from "../lib/useDecks";
 import {
   chargerFiltreMetier,
-  lirePourcentageMaitrise,
+  effacerProgressionJeu,
+  lireAvancementJeu,
+  lireDernierQuiz,
   sauvegarderFiltreMetier,
+  type DernierQuiz,
   type FiltreMetier,
 } from "../lib/storage";
 import type { Deck, Metier } from "../lib/schema";
@@ -93,9 +96,38 @@ export default function Accueil() {
   );
 }
 
+function formaterDateCourte(iso: string): string {
+  try {
+    return new Intl.DateTimeFormat("fr-CH", { day: "numeric", month: "short" }).format(
+      new Date(iso),
+    );
+  } catch {
+    return "";
+  }
+}
+
 function CarteJeu({ deck }: { deck: Deck }) {
-  const avancement = lirePourcentageMaitrise(deck.id, deck.version, deck.cartes.length);
-  const premierLancement = avancement === 0;
+  const [avancement, setAvancement] = useState(() =>
+    lireAvancementJeu(deck.id, deck.version, deck.cartes.length),
+  );
+  const [dernierQuiz, setDernierQuiz] = useState<DernierQuiz | null>(() =>
+    lireDernierQuiz(deck.id, deck.version, deck.cartes.length),
+  );
+
+  const pourcentage =
+    avancement.total === 0 ? 0 : Math.round((avancement.sues / avancement.total) * 100);
+  const premierLancement = avancement.sues === 0 && !dernierQuiz;
+
+  const reinitialiser = () => {
+    const confirmation = window.confirm(
+      `Effacer votre progression sur « ${deck.titre} » ? Cette action ne peut pas être annulée.`,
+    );
+    if (!confirmation) return;
+
+    effacerProgressionJeu(deck.id);
+    setAvancement({ sues: 0, total: deck.cartes.length });
+    setDernierQuiz(null);
+  };
 
   return (
     <article className="rounded-lg border border-tole bg-white p-4 shadow-sm">
@@ -107,17 +139,25 @@ function CarteJeu({ deck }: { deck: Deck }) {
       <div className="mt-3">
         <div
           role="progressbar"
-          aria-valuenow={avancement}
+          aria-valuenow={pourcentage}
           aria-valuemin={0}
           aria-valuemax={100}
           aria-label={`Avancement du jeu ${deck.titre}`}
           className="h-2 w-full overflow-hidden rounded-full bg-tole"
         >
-          <div className="h-full rounded-full bg-bleu" style={{ width: `${avancement}%` }} />
+          <div className="h-full rounded-full bg-bleu" style={{ width: `${pourcentage}%` }} />
         </div>
         <p className="mt-1 text-xs text-encre/70">
-          {premierLancement ? "Pas encore commencé" : `${avancement} % maîtrisé`}
+          {premierLancement
+            ? "Pas encore commencé"
+            : `${avancement.sues}/${avancement.total} cartes sues`}
         </p>
+        {dernierQuiz && (
+          <p className="mt-0.5 text-xs text-encre/70">
+            Dernier quiz : {dernierQuiz.score}/{dernierQuiz.total} · le{" "}
+            {formaterDateCourte(dernierQuiz.date)}
+          </p>
+        )}
       </div>
 
       <div className="mt-3 flex gap-2">
@@ -134,6 +174,16 @@ function CarteJeu({ deck }: { deck: Deck }) {
           Quiz
         </Link>
       </div>
+
+      {!premierLancement && (
+        <button
+          type="button"
+          onClick={reinitialiser}
+          className="mt-2 text-xs text-encre/50 underline hover:text-rouge"
+        >
+          Réinitialiser la progression de ce jeu
+        </button>
+      )}
     </article>
   );
 }

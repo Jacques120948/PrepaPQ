@@ -1,11 +1,15 @@
 import { beforeEach, describe, expect, it } from "vitest";
-import { NIVEAU_MIN } from "../leitner";
+import { NIVEAU_MAX, NIVEAU_MIN } from "../leitner";
 import {
   chargerFiltreMetier,
   chargerProgression,
+  effacerProgressionJeu,
   effacerProgressionLocale,
+  lireAvancementJeu,
+  lireDernierQuiz,
   sauvegarderFiltreMetier,
   sauvegarderProgression,
+  sauvegarderResultatQuiz,
 } from "../storage";
 
 beforeEach(() => {
@@ -45,6 +49,71 @@ describe("chargerProgression", () => {
     const resultat = chargerProgression("deck-2", "2026-09", 2);
     expect(resultat.niveaux).toEqual([NIVEAU_MIN, NIVEAU_MIN]);
     expect(resultat.reinitialisee).toBe(false);
+  });
+});
+
+describe("lireAvancementJeu", () => {
+  it("vaut 0 sue sur le total quand aucune progression n'existe", () => {
+    expect(lireAvancementJeu("deck-1", "2026-09", 4)).toEqual({ sues: 0, total: 4 });
+  });
+
+  it("compte les cartes ayant atteint le niveau maximal", () => {
+    sauvegarderProgression("deck-1", "2026-09", [NIVEAU_MAX, NIVEAU_MIN, NIVEAU_MAX, 2]);
+    expect(lireAvancementJeu("deck-1", "2026-09", 4)).toEqual({ sues: 2, total: 4 });
+  });
+
+  it("ignore une progression d'une autre version", () => {
+    sauvegarderProgression("deck-1", "2026-09", [NIVEAU_MAX, NIVEAU_MAX]);
+    expect(lireAvancementJeu("deck-1", "2026-10", 2)).toEqual({ sues: 0, total: 2 });
+  });
+});
+
+describe("résultat de quiz", () => {
+  it("n'a pas de dernier résultat avant la première tentative", () => {
+    expect(lireDernierQuiz("deck-1", "2026-09", 3)).toBeNull();
+  });
+
+  it("enregistre et retrouve le dernier résultat de quiz", () => {
+    sauvegarderResultatQuiz("deck-1", "2026-09", 3, 8, 10);
+    const resultat = lireDernierQuiz("deck-1", "2026-09", 3);
+    expect(resultat?.score).toBe(8);
+    expect(resultat?.total).toBe(10);
+    expect(typeof resultat?.date).toBe("string");
+  });
+
+  it("n'écrase pas la progression des cartes en enregistrant un résultat de quiz", () => {
+    sauvegarderProgression("deck-1", "2026-09", [NIVEAU_MAX, NIVEAU_MIN, NIVEAU_MAX]);
+    sauvegarderResultatQuiz("deck-1", "2026-09", 3, 5, 10);
+    expect(chargerProgression("deck-1", "2026-09", 3).niveaux).toEqual([
+      NIVEAU_MAX,
+      NIVEAU_MIN,
+      NIVEAU_MAX,
+    ]);
+  });
+
+  it("n'écrase pas le dernier résultat de quiz en enregistrant la progression des cartes", () => {
+    sauvegarderResultatQuiz("deck-1", "2026-09", 3, 7, 10);
+    sauvegarderProgression("deck-1", "2026-09", [NIVEAU_MAX, NIVEAU_MIN, NIVEAU_MIN]);
+    expect(lireDernierQuiz("deck-1", "2026-09", 3)?.score).toBe(7);
+  });
+
+  it("efface le dernier résultat de quiz quand la version du jeu change", () => {
+    sauvegarderResultatQuiz("deck-1", "2026-09", 3, 9, 10);
+    expect(lireDernierQuiz("deck-1", "2026-10", 3)).toBeNull();
+  });
+});
+
+describe("effacerProgressionJeu", () => {
+  it("efface la progression et le dernier quiz d'un seul jeu", () => {
+    sauvegarderProgression("deck-1", "2026-09", [NIVEAU_MAX, NIVEAU_MAX]);
+    sauvegarderResultatQuiz("deck-1", "2026-09", 2, 6, 10);
+    sauvegarderProgression("deck-2", "2026-09", [NIVEAU_MAX]);
+
+    effacerProgressionJeu("deck-1");
+
+    expect(lireAvancementJeu("deck-1", "2026-09", 2)).toEqual({ sues: 0, total: 2 });
+    expect(lireDernierQuiz("deck-1", "2026-09", 2)).toBeNull();
+    expect(lireAvancementJeu("deck-2", "2026-09", 1)).toEqual({ sues: 1, total: 1 });
   });
 });
 

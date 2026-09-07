@@ -3,6 +3,7 @@ import { Link, useParams } from "react-router-dom";
 import { Bandeau } from "../components/Bandeau";
 import { useDeck, useDecks } from "../lib/useDecks";
 import { calculerNote } from "../lib/grade";
+import { sauvegarderResultatQuiz } from "../lib/storage";
 
 export default function Quiz() {
   const { deckId } = useParams<{ deckId: string }>();
@@ -13,6 +14,7 @@ export default function Quiz() {
   const [position, setPosition] = useState(0);
   const [selection, setSelection] = useState<number | null>(null);
   const [corrections, setCorrections] = useState<boolean[]>([]);
+  const [resultatEnregistre, setResultatEnregistre] = useState(false);
 
   useEffect(() => {
     if (!deck) return;
@@ -20,7 +22,18 @@ export default function Quiz() {
     setPosition(0);
     setSelection(null);
     setCorrections([]);
+    setResultatEnregistre(false);
   }, [deck]);
+
+  useEffect(() => {
+    if (!deck) return;
+    const terminee = indicesActifs.length > 0 && position >= indicesActifs.length;
+    if (!terminee || resultatEnregistre) return;
+
+    const score = corrections.filter(Boolean).length;
+    sauvegarderResultatQuiz(deck.id, deck.version, deck.cartes.length, score, indicesActifs.length);
+    setResultatEnregistre(true);
+  }, [deck, position, indicesActifs, corrections, resultatEnregistre]);
 
   if (chargement) {
     return <Bandeau ton="info">Chargement du quiz...</Bandeau>;
@@ -55,6 +68,7 @@ export default function Quiz() {
     setPosition(0);
     setSelection(null);
     setCorrections([]);
+    setResultatEnregistre(false);
   };
 
   const refaireRatees = (ratees: number[]) => {
@@ -62,6 +76,7 @@ export default function Quiz() {
     setPosition(0);
     setSelection(null);
     setCorrections([]);
+    setResultatEnregistre(false);
   };
 
   const terminee = position >= indicesActifs.length;
