@@ -1,0 +1,212 @@
+{
+  "id": "tolier-pq-carrosserie-aerodynamique",
+  "titre": "Carrosserie : formes, châssis, fabrication et aérodynamique",
+  "metier": "tolier",
+  "annee": 4,
+  "module": "Préparation PQ",
+  "version": "2026-09",
+  "cartes": [
+    {
+      "recto": "Quelle catégorie OETV correspond à une voiture de tourisme classique ?",
+      "verso": "M1 — véhicule à moteur pour le transport de personnes (au maximum 8 places + 1 conducteur)."
+    },
+    {
+      "recto": "Qu'est-ce qu'une berline (limousine) ?",
+      "verso": "Une carrosserie fermée à 3 volumes distincts : compartiment moteur, habitacle, coffre séparé."
+    },
+    {
+      "recto": "Qu'est-ce qu'un châssis « Space Frame » ?",
+      "verso": "Un treillis 3D de profilés, souvent en aluminium, sur lequel sont fixés des panneaux non porteurs. Très rigide et léger."
+    },
+    {
+      "recto": "Qu'est-ce qu'une pièce primaire (structurelle) de la carrosserie ? Donnez un exemple.",
+      "verso": "Une pièce qui participe à la rigidité et à la sécurité de la caisse : longeron, traverse, montant, plancher, tablier."
+    },
+    {
+      "recto": "Quel est l'ordre de grandeur du Cx (coefficient de pénétration dans l'air) d'une voiture moderne ?",
+      "verso": "Entre 0,25 et 0,35 — jusqu'à 0,22 pour les véhicules les plus profilés."
+    },
+    {
+      "recto": "Qu'est-ce qu'un écoulement d'air laminaire ?",
+      "verso": "Les filets d'air suivent des trajectoires parallèles et ordonnées, sans mélange : peu de perte d'énergie."
+    },
+    {
+      "recto": "Qu'est-ce que la portance en aérodynamique automobile ?",
+      "verso": "Une force verticale, généralement ascendante, qui tend à soulever le véhicule à haute vitesse et diminue l'adhérence des pneus."
+    },
+    {
+      "recto": "Que contient le cahier des charges d'un nouveau véhicule ?",
+      "verso": "Les exigences fonctionnelles, techniques, normatives, économiques et industrielles du véhicule : la référence de tout le développement."
+    },
+    {
+      "recto": "Citez deux matériaux typiques de la construction légère.",
+      "verso": "Aluminium, magnésium, matériaux composites (fibre de carbone), aciers à ultra haute résistance (UHSS) en épaisseur réduite."
+    },
+    {
+      "recto": "Quelle est la largeur maximale d'un véhicule à moteur selon l'OETV (rétroviseurs non compris) ?",
+      "verso": "2,55 mètres."
+    },
+    {
+      "recto": "Quelle est la différence entre une carrosserie autoporteuse et une carrosserie à châssis séparé ?",
+      "verso": "Autoporteuse (monocoque) : la carrosserie assure structure et forme extérieure en un seul ensemble soudé. Châssis séparé : la carrosserie est fixée sur un châssis porteur indépendant (cadre en échelle), plus robuste mais plus lourd."
+    },
+    {
+      "recto": "Citez 4 types de châssis.",
+      "verso": "Cadre en échelle, monocoque (autoporteuse), Space Frame, plate-forme (partagée entre plusieurs modèles)."
+    },
+    {
+      "recto": "Citez 4 tâches principales de la carrosserie d'un véhicule.",
+      "verso": "Structure et rigidité, protection des occupants, aérodynamisme, esthétique et style — aussi : support des équipements, isolation, étanchéité."
+    },
+    {
+      "recto": "Quelles sont les grandes étapes de la production industrielle d'une carrosserie ?",
+      "verso": "Emboutissage des tôles, ferrage/assemblage (caisse en blanc), traitement anticorrosion (cataphorèse), mise en peinture, habillage/assemblage final, contrôle qualité."
+    },
+    {
+      "recto": "Quelle est la différence entre cahier des charges et développement de concept ?",
+      "verso": "Le cahier des charges définit les exigences du véhicule (fonctionnelles, techniques, normatives, économiques). Le développement de concept traduit ces exigences en propositions concrètes (architecture, design, matériaux)."
+    },
+    {
+      "recto": "Qu'est-ce que la construction modulaire et quel est son principal avantage ?",
+      "verso": "L'utilisation d'une plateforme commune partagée entre plusieurs modèles : réduction des coûts, standardisation de la production, variété de modèles sur une base unique."
+    },
+    {
+      "recto": "Où trouve-t-on un écoulement d'air turbulent autour d'un véhicule, et quelle est sa conséquence ?",
+      "verso": "Derrière le véhicule (sillage), autour des rétroviseurs, des roues, sous la caisse. Il augmente la traînée aérodynamique par dépression."
+    },
+    {
+      "recto": "Comment se définissent la traînée, la portance et la dérive en aérodynamique automobile ?",
+      "verso": "Traînée : force parallèle à l'avancement, qui freine le véhicule. Portance : force verticale qui tend à le soulever. Dérive : force latérale, causée par le vent traversier."
+    },
+    {
+      "recto": "Citez 4 moyens pour réduire la traînée aérodynamique (Cx) d'un véhicule.",
+      "verso": "Formes profilées et arrondies, carénage de soubassement, diffuseur arrière, rétroviseurs profilés ou remplacés par des caméras — aussi : jantes lisses, spoiler avant."
+    },
+    {
+      "recto": "Quelle est la différence entre pièces primaires, secondaires et revêtements d'une carrosserie ?",
+      "verso": "Primaires : structurelles (longerons, traverses, montants). Secondaires : ouvrantes (portes, capot, hayon). Revêtements : habillages non structurels (pare-chocs plastique, moulures, garnitures)."
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Selon l'OETV, à quelle catégorie appartient une voiture de tourisme classique (≤ 8 places, hors conducteur) ?",
+      "options": ["M1 — véhicule à moteur pour le transport de personnes", "N1 — véhicule utilitaire léger", "L3 — motocycle à deux roues", "O1 — remorque légère"],
+      "reponse": 0,
+      "explication": "La catégorie M1 regroupe les voitures particulières. M2/M3 = autocars ; N1/N2/N3 = utilitaires selon le poids ; L = motos ; O = remorques."
+    },
+    {
+      "question": "Une carrosserie fermée à 3 volumes distincts (compartiment moteur, habitacle, coffre) est appelée :",
+      "options": ["Un break", "Un coupé", "Une berline (limousine)", "Un monospace"],
+      "reponse": 2,
+      "explication": "Le break a un coffre intégré à l'habitacle (2 volumes), le monospace est monovolume, le coupé est une berline sportive à 2 portes."
+    },
+    {
+      "question": "Le type de châssis « Space Frame » utilise :",
+      "options": ["Une simple tôle emboutie de plancher", "Un treillis de profilés sur lequel sont fixés des panneaux non porteurs", "Deux longerons parallèles reliés par des traverses", "Un châssis monobloc en fibre de verre"],
+      "reponse": 1,
+      "explication": "Le Space Frame est un treillis 3D de profilés extrudés, souvent en aluminium ; les panneaux servent d'habillage sans fonction structurelle."
+    },
+    {
+      "question": "Parmi ces pièces, laquelle est une pièce primaire (structurelle) de la carrosserie ?",
+      "options": ["Le pare-chocs en plastique", "Le rétroviseur extérieur", "Le longeron", "La garniture de portière intérieure"],
+      "reponse": 2,
+      "explication": "Les pièces primaires : longerons, traverses, montants, plancher, tablier. Les portes, capots et ailes sont des pièces secondaires ; garnitures et pare-chocs sont des habillages."
+    },
+    {
+      "question": "Le coefficient de pénétration dans l'air (Cx) d'une voiture particulière moderne est typiquement de l'ordre de :",
+      "options": ["0,05", "0,25 à 0,35", "1,0", "2,5"],
+      "reponse": 1,
+      "explication": "Les voitures modernes ont un Cx entre 0,25 et 0,35 ; les plus profilées descendent à 0,22."
+    },
+    {
+      "question": "L'écoulement d'air autour du véhicule est dit laminaire lorsque :",
+      "options": ["Les filets d'air sont chaotiques et forment des tourbillons", "Les filets d'air suivent des trajectoires parallèles et ordonnées", "L'air s'immobilise complètement autour de la carrosserie", "L'air se déplace uniquement en cercle autour des roues"],
+      "reponse": 1,
+      "explication": "L'écoulement turbulent, à l'inverse, présente des filets chaotiques avec tourbillons, ce qui augmente la traînée."
+    },
+    {
+      "question": "La force aérodynamique qui tend à soulever un véhicule à haute vitesse est :",
+      "options": ["La traînée", "La portance", "La dérive", "Le tangage"],
+      "reponse": 1,
+      "explication": "La portance est la composante verticale ascendante. La traînée est la résistance à l'avancement, la dérive est latérale."
+    },
+    {
+      "question": "Le cahier des charges d'un nouveau véhicule contient principalement :",
+      "options": ["Uniquement le prix de vente prévisionnel", "La liste des concessionnaires distributeurs", "Les exigences fonctionnelles, techniques, normatives et économiques du véhicule", "Le nom des ingénieurs affectés au projet"],
+      "reponse": 2,
+      "explication": "Le cahier des charges fixe toutes les exigences du projet et sert de référence à tout le développement."
+    },
+    {
+      "question": "Parmi ces matériaux, lequel est typique de la construction dite « légère » ?",
+      "options": ["La fonte grise", "L'aluminium", "Le plomb", "Le béton armé"],
+      "reponse": 1,
+      "explication": "Les matériaux de construction légère (aluminium, magnésium, composites, aciers UHSS) réduisent le poids et donc la consommation."
+    },
+    {
+      "question": "Selon l'OETV, la largeur maximale d'un véhicule à moteur (rétroviseurs non compris) est de :",
+      "options": ["1,80 m", "2,55 m", "3,00 m", "4,00 m"],
+      "reponse": 1,
+      "explication": "L'OETV fixe une largeur maximale de 2,55 m (2,60 m pour les véhicules réfrigérés)."
+    },
+    {
+      "question": "Un véhicule tout-terrain 4x4 utilitaire utilise souvent une carrosserie avec châssis séparé de type « cadre en échelle ».",
+      "options": ["Vrai", "Faux"],
+      "reponse": 0,
+      "explication": "Le cadre en échelle équipe historiquement les 4x4, pick-ups et camions : il offre robustesse et capacité de charge élevée, au prix du poids."
+    },
+    {
+      "question": "L'aérodynamisme n'a aucune influence sur la consommation de carburant à basse vitesse (moins de 50 km/h).",
+      "options": ["Vrai", "Faux"],
+      "reponse": 1,
+      "explication": "La résistance de l'air croît avec le carré de la vitesse ; son influence est faible mais existe même à basse vitesse, où la résistance au roulement domine."
+    },
+    {
+      "question": "Une carrosserie autoporteuse (monocoque) ne comporte pas de châssis séparé : la structure et la forme extérieure ne font qu'un.",
+      "options": ["Vrai", "Faux"],
+      "reponse": 0,
+      "explication": "C'est la définition même de la monocoque : plancher, longerons, traverses et panneaux forment un ensemble soudé qui assure structure et carrosserie."
+    },
+    {
+      "question": "Le coefficient Cx d'une voiture particulière moderne est très supérieur à 1.",
+      "options": ["Vrai", "Faux"],
+      "reponse": 1,
+      "explication": "Le Cx d'une voiture moderne est bien inférieur à 1, typiquement entre 0,25 et 0,35."
+    },
+    {
+      "question": "La turbulence derrière un véhicule (sillage) augmente la traînée aérodynamique.",
+      "options": ["Vrai", "Faux"],
+      "reponse": 0,
+      "explication": "Le sillage turbulent crée une dépression qui « aspire » le véhicule vers l'arrière, augmentant la traînée."
+    },
+    {
+      "question": "La construction modulaire consiste à utiliser une plateforme et des composants communs pour plusieurs modèles de véhicules.",
+      "options": ["Vrai", "Faux"],
+      "reponse": 0,
+      "explication": "La construction modulaire réduit les coûts, standardise la fabrication et permet plusieurs variantes sur une base unique."
+    },
+    {
+      "question": "La soufflerie est utilisée pour tester la solidité mécanique des pièces de carrosserie.",
+      "options": ["Vrai", "Faux"],
+      "reponse": 1,
+      "explication": "La soufflerie sert à étudier l'aérodynamique (mesure du Cx, visualisation des flux). La solidité mécanique se teste sur bancs statiques ou en crash-test."
+    },
+    {
+      "question": "L'ergonomie concerne l'adaptation du véhicule aux dimensions et aux besoins de l'utilisateur (posture de conduite, accessibilité des commandes, visibilité).",
+      "options": ["Vrai", "Faux"],
+      "reponse": 0,
+      "explication": "L'ergonomie est une composante essentielle du cahier des charges."
+    },
+    {
+      "question": "Une construction hybride (ou mixte) combine plusieurs matériaux dans la même carrosserie, par exemple acier + aluminium + composites.",
+      "options": ["Vrai", "Faux"],
+      "reponse": 0,
+      "explication": "Les carrosseries modernes utilisent le bon matériau au bon endroit, ce qui impose des assemblages hybrides (rivetage, collage)."
+    },
+    {
+      "question": "Toutes les pièces d'une carrosserie moderne ont exactement la même fonction structurelle.",
+      "options": ["Vrai", "Faux"],
+      "reponse": 1,
+      "explication": "On distingue les pièces primaires (structurelles), secondaires (ouvrantes) et les revêtements (habillages), chacune avec un rôle différent."
+    }
+  ]
+}
