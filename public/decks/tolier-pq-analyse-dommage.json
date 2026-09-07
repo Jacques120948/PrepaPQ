@@ -1,0 +1,144 @@
+{
+  "id": "tolier-pq-analyse-dommage",
+  "titre": "Analyser le dommage et choisir la stratégie de réparation",
+  "metier": "tolier",
+  "annee": 4,
+  "module": "Préparation PQ",
+  "version": "2026-09",
+  "cartes": [
+    {
+      "recto": "Qu'est-ce qu'un dommage direct ?",
+      "verso": "Le dégât constaté au point d'impact."
+    },
+    {
+      "recto": "Qu'est-ce qu'un dommage indirect ?",
+      "verso": "Un dégât provoqué plus loin par la transmission de l'effort, par exemple un jeu de porte devenu irrégulier après un choc sur l'aile."
+    },
+    {
+      "recto": "Qu'est-ce qu'un élément de structure ?",
+      "verso": "Une pièce qui participe à la rigidité et à la sécurité de la caisse : longeron, pied milieu, plancher, traverse."
+    },
+    {
+      "recto": "Qu'est-ce qu'un élément rapporté ?",
+      "verso": "Une pièce fixée sur la caisse, souvent boulonnée ou clipsée : aile avant, capot, pare-chocs."
+    },
+    {
+      "recto": "Qu'est-ce qu'un élément à usage unique ?",
+      "verso": "Une pièce qui ne se remonte jamais après dépose, selon la consigne constructeur : certaines vis, rivets, agrafes."
+    },
+    {
+      "recto": "Qu'est-ce qu'une tôle étirée ?",
+      "verso": "Une tôle dont la surface s'est allongée : elle est plus grande qu'à l'origine. Signe typique : une bosse molle qui « claque » et revient sous le doigt."
+    },
+    {
+      "recto": "Quelles sont les cinq étapes de la démarche de diagnostic ?",
+      "verso": "Constater, suivre l'effort, ouvrir, mesurer, décider."
+    },
+    {
+      "recto": "Que faut-il contrôler avant toute dépose lors d'un diagnostic ?",
+      "verso": "Les jeux et le fonctionnement des ouvrants, pour garder une référence de l'état de départ avant que l'information ne disparaisse."
+    },
+    {
+      "recto": "Sur quels éléments la méthode du constructeur prime-t-elle toujours sur l'habitude de l'atelier ?",
+      "verso": "Aciers à très haute résistance et aciers au bore, aluminium, systèmes d'airbag, véhicules électriques ou hybrides, capteurs d'aide à la conduite."
+    },
+    {
+      "recto": "Que faire avant tout diagnostic sur un véhicule hybride ou électrique accidenté ?",
+      "verso": "Appliquer la procédure de mise en sécurité du système haute tension."
+    },
+    {
+      "recto": "Pourquoi ne peut-on pas utiliser les mêmes outils sur l'aluminium et sur l'acier ?",
+      "verso": "Des particules d'acier restées sur l'aluminium provoquent de la corrosion : les outils et abrasifs doivent être dédiés à chaque matériau."
+    },
+    {
+      "recto": "Qu'indique un pli net avec arête vive sur une tôle en acier ?",
+      "verso": "Une zone où la tôle a été fortement travaillée et probablement étirée : le simple débosselage ne suffira pas."
+    },
+    {
+      "recto": "Pourquoi un devis fiable ne peut-il pas être établi sans déposer aucune pièce ?",
+      "verso": "Sans dépose, les dommages cachés ne sont pas visibles : le devis serait sous-évalué et devrait être corrigé en cours de réparation."
+    },
+    {
+      "recto": "Que faut-il prévoir après une intervention qui touche un capteur d'aide à la conduite (radar, caméra) ?",
+      "verso": "Un calibrage du capteur, dans les conditions et avec le matériel exigés par le constructeur, à prévoir dans le devis et le planning."
+    },
+    {
+      "recto": "Que faire quand on n'a pas l'information technique nécessaire pour décider ?",
+      "verso": "Consulter la documentation constructeur."
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Lors d'un choc frontal, l'effort se transmet principalement à la caisse par :",
+      "options": ["La peau du pare-chocs", "Les longerons avant", "Les passages de roue plastiques"],
+      "reponse": 1,
+      "explication": "Le pare-chocs absorbe et répartit, mais c'est la structure — les longerons — qui conduit l'effort vers l'habitacle."
+    },
+    {
+      "question": "Un « élément à usage unique » doit être :",
+      "options": ["Remonté après contrôle visuel", "Remonté si le couple de serrage est respecté", "Systématiquement remplacé par une pièce neuve"],
+      "reponse": 2,
+      "explication": "Une pièce à usage unique a perdu ses caractéristiques à la dépose ; la remonter compromet la tenue de l'assemblage."
+    },
+    {
+      "question": "Sur un véhicule hybride ou électrique accidenté, la toute première démarche avant le diagnostic est :",
+      "options": ["Déposer le pare-chocs pour voir les dégâts", "Appliquer la procédure de mise en sécurité du système haute tension", "Mesurer la structure au banc"],
+      "reponse": 1,
+      "explication": "Aucune intervention ni diagnostic approfondi avant la mise en sécurité du circuit haute tension, selon la procédure constructeur."
+    },
+    {
+      "question": "Un pli net, avec arête vive, sur une aile en acier indique le plus souvent :",
+      "options": ["Une déformation élastique qui reviendra seule", "Une zone où la tôle a été fortement travaillée et probablement étirée", "Un simple défaut de peinture"],
+      "reponse": 1,
+      "explication": "Une arête vive signe une déformation plastique importante ; la tôle y est travaillée, souvent étirée, et le simple débosselage ne suffira pas."
+    },
+    {
+      "question": "Les jeux et le fonctionnement des ouvrants se contrôlent :",
+      "options": ["Uniquement à la fin du remontage", "Avant le démontage, puis après la réparation", "Seulement si le client le demande"],
+      "reponse": 1,
+      "explication": "Avant, pour connaître l'état de départ et détecter un dommage de structure ; après, pour valider la réparation."
+    },
+    {
+      "question": "La documentation constructeur sert notamment à connaître :",
+      "options": ["Le prix de revente du véhicule", "Les zones de coupe autorisées et les procédés d'assemblage admis", "La couleur d'origine uniquement"],
+      "reponse": 1,
+      "explication": "C'est la source qui fixe les zones de coupe, les procédés d'assemblage admis et les pièces à remplacer obligatoirement."
+    },
+    {
+      "question": "Si la peinture n'est pas fissurée, on peut affirmer que la tôle n'a pas été déformée.",
+      "options": ["Vrai", "Faux"],
+      "reponse": 1,
+      "explication": "La peinture est souple et peut suivre une déformation sans se fissurer. Le contrôle se fait par la lumière rasante, le toucher, les jeux et la mesure — pas par l'aspect du vernis."
+    },
+    {
+      "question": "Un choc arrière peut provoquer un défaut de fermeture d'une porte avant.",
+      "options": ["Vrai", "Faux"],
+      "reponse": 0,
+      "explication": "Si l'effort a atteint la structure — plancher, bas de caisse, pied — la caisse peut se déformer sur toute sa longueur et modifier l'ouverture des portes avant."
+    },
+    {
+      "question": "Sur l'aluminium, on peut utiliser les mêmes outils de ponçage et de redressage que sur l'acier.",
+      "options": ["Vrai", "Faux"],
+      "reponse": 1,
+      "explication": "Séparation obligatoire des outils et de la zone de travail : des particules d'acier restées sur l'aluminium provoquent de la corrosion."
+    },
+    {
+      "question": "Un devis fiable peut être établi sans déposer aucune pièce.",
+      "options": ["Vrai", "Faux"],
+      "reponse": 1,
+      "explication": "Sans dépose, les dommages cachés ne sont pas visibles. Le devis serait sous-évalué et devrait être corrigé en cours de réparation."
+    },
+    {
+      "question": "Dans la démarche de diagnostic, que fait-on juste avant de déposer les éléments qui masquent la zone endommagée ?",
+      "options": ["Décider de la stratégie de réparation", "Contrôler les jeux et le fonctionnement des ouvrants", "Contrôler la géométrie de la structure", "Rechercher les dommages indirects"],
+      "reponse": 1,
+      "explication": "L'ordre est : relever le choc, contrôler les jeux et ouvrants avant dépose, déposer les éléments masquants, rechercher les dommages indirects, contrôler la géométrie, puis décider."
+    },
+    {
+      "question": "Un choc avant à faible vitesse ne laisse voir qu'un pare-chocs rayé et une calandre fêlée, sur un véhicule équipé d'aide à la conduite. Peut-on se fier à cette seule observation pour établir le devis ?",
+      "options": ["Oui, les dégâts visibles suffisent", "Non, il faut déposer pour contrôler l'absorbeur, la traverse et les capteurs", "Non, il faut attendre l'avis du client"],
+      "reponse": 1,
+      "explication": "Ce qui est visible de l'extérieur ne dit rien de l'état de l'absorbeur, de la traverse et des supports, ni de l'état et de l'orientation des capteurs."
+    }
+  ]
+}
