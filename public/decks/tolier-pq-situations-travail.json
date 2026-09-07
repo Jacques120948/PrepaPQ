@@ -1,0 +1,208 @@
+{
+  "id": "tolier-pq-situations-travail",
+  "titre": "Fabrication, vitrage, assemblages et réparation des dommages",
+  "metier": "tolier",
+  "annee": 4,
+  "module": "Préparation PQ",
+  "version": "2026-09",
+  "cartes": [
+    {
+      "recto": "Quelles sont les 4 étapes principales pour fabriquer une pièce de carrosserie simple à partir d'un croquis ?",
+      "verso": "Analyse et traçage (cotes, rayons, angles) ; découpe (cisaille, meuleuse) ; mise en forme (pliage, cintrage ou planage selon la géométrie) ; contrôle et ajustage (mesure, essai de montage, protection anticorrosion)."
+    },
+    {
+      "recto": "Citez 5 caractéristiques importantes des matériaux utilisés en carrosserie.",
+      "verso": "Résistance mécanique, ductilité, élasticité, dureté, résistance à la corrosion (et masse volumique)."
+    },
+    {
+      "recto": "Quelle est la différence entre verre trempé et verre feuilleté, et où sont-ils utilisés ?",
+      "verso": "Le trempé se fragmente en petits morceaux non coupants et n'est jamais réparable : vitres latérales et lunette arrière. Le feuilleté (deux verres + film PVB) reste en place en cas de casse et est réparable sous conditions : pare-brise."
+    },
+    {
+      "recto": "Quelles sont les grandes étapes de la pose d'un pare-brise ?",
+      "verso": "Préparation (dépose de l'ancien vitrage, nettoyage du logement) ; préparation des surfaces (primaire d'adhérence) ; pose du cordon de colle polyuréthane ; mise en place du vitrage ; respect du temps de polymérisation avant remise en circulation."
+    },
+    {
+      "recto": "Pourquoi le temps de polymérisation de la colle du pare-brise est-il important pour la sécurité ?",
+      "verso": "Le pare-brise contribue à environ 30 % de la rigidité de la caisse et au bon déploiement de l'airbag passager : un cordon mal collé peut se décoller en cas de choc."
+    },
+    {
+      "recto": "Citez 4 techniques d'assemblage à froid utilisées en carrosserie.",
+      "verso": "Rivetage, vissage/boulonnage, clinchage (agrafage), collage structurel (colle époxy ou polyuréthane)."
+    },
+    {
+      "recto": "Citez au moins 5 EPI ou règles de sécurité pour le brasage ou le soudage.",
+      "verso": "Masque de soudage filtrant, gants de soudeur, tablier ignifugé, chaussures de sécurité, aspiration des fumées à la source, zone dégagée de produits inflammables, déconnexion de la batterie du véhicule."
+    },
+    {
+      "recto": "Quels sont les principaux composants du système d'échappement qui nettoient les gaz, et leur rôle ?",
+      "verso": "Catalyseur (transforme CO, HC et NOx), filtre à particules FAP (retient les particules fines), sondes lambda (régulent le mélange air/carburant), vanne EGR (réduit les NOx)."
+    },
+    {
+      "recto": "Quelle est la différence entre chaleur et température, et 3 effets de la chaleur sur les matériaux ?",
+      "verso": "La température est l'état thermique d'un corps ; la chaleur est l'énergie thermique transférée. Effets : dilatation thermique, modification des propriétés mécaniques (zone affectée thermiquement), dégradation des matériaux sensibles (plastiques, câbles)."
+    },
+    {
+      "recto": "À partir de quand parle-t-on de « dommage structurel » après un choc frontal ?",
+      "verso": "Dès qu'un élément porteur (longeron, traverse, tablier, montant, plancher) est déformé, plié ou fissuré, ou que les cotes s'écartent de plusieurs millimètres des valeurs constructeur."
+    },
+    {
+      "recto": "Comment l'énergie d'un choc frontal est-elle absorbée et transmise dans la carrosserie ?",
+      "verso": "Pare-chocs et absorbeur d'abord, puis traverse avant, puis longerons qui s'écrasent en accordéon (zones programmées), puis tablier et montants vers la cellule habitacle qui reste rigide pour protéger l'espace de survie."
+    },
+    {
+      "recto": "Qu'est-ce que l'écrouissage ?",
+      "verso": "Le durcissement d'un métal après déformation à froid : les grains cristallins se déforment, la matière devient plus dure mais plus fragile."
+    },
+    {
+      "recto": "Qu'est-ce que la ductilité d'un matériau ?",
+      "verso": "Sa capacité à se déformer sans se fissurer."
+    },
+    {
+      "recto": "Quelle est la différence entre brasage et soudage ?",
+      "verso": "En brasage, la température de fusion du métal d'apport est inférieure à celle du métal de base : seul le métal d'apport fond, ce qui préserve les propriétés du métal de base."
+    },
+    {
+      "recto": "Quel procédé de soudage est le plus adapté pour l'aluminium en carrosserie ?",
+      "verso": "Le soudage TIG avec gaz argon pur : il permet un contrôle fin de l'apport thermique et évite l'oxydation."
+    },
+    {
+      "recto": "Sous quelles conditions un impact sur un pare-brise peut-il être réparé plutôt que remplacé ?",
+      "verso": "Impact de petite taille (moins de 2 CHF), à plus de 6 cm du bord, hors sérigraphie, et sans atteinte du film PVB."
+    },
+    {
+      "recto": "Pourquoi le rivetage aveugle est-il particulièrement adapté à l'aluminium ?",
+      "verso": "Parce qu'il n'apporte pas de chaleur, contrairement au soudage qui crée une zone affectée thermiquement (ZAT) fragilisant l'aluminium."
+    },
+    {
+      "recto": "À quoi sert un écran thermique en aluminium près de l'échappement ?",
+      "verso": "Il reflète et dissipe la chaleur de l'échappement pour protéger la carrosserie, l'habitacle et les composants sensibles."
+    },
+    {
+      "recto": "Pourquoi un léger désalignement des jeux d'ajustement (portes, capot) ne doit-il jamais être ignoré ?",
+      "verso": "C'est souvent le signe d'une déformation structurelle interne, même sans dégât visible : un contrôle sur banc de mesure est indispensable."
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Pour donner un angle net et précis à une pièce de tôle plate, quel procédé de formage est le plus adapté ?",
+      "options": ["L'emboutissage", "Le pliage à la plieuse", "Le cintrage", "Le planage au marteau"],
+      "reponse": 1,
+      "explication": "Le pliage à la plieuse est le procédé de référence pour un angle net et précis. L'emboutissage sert aux formes complexes 3D, le cintrage aux courbures régulières, le planage à l'ajustage de surface."
+    },
+    {
+      "question": "Une pièce de carrosserie soumise à un choc frontal subit principalement quel type de sollicitation ?",
+      "options": ["Torsion", "Compression et flexion", "Traction pure", "Cisaillement transversal"],
+      "reponse": 1,
+      "explication": "Un choc frontal génère principalement de la compression longitudinale (écrasement des longerons) et de la flexion aux points d'appui."
+    },
+    {
+      "question": "Le film intercalaire d'un pare-brise en verre feuilleté est composé de :",
+      "options": ["PVC (polychlorure de vinyle)", "PVB (polyvinyl butyral)", "PET (polyéthylène téréphtalate)", "PP (polypropylène)"],
+      "reponse": 1,
+      "explication": "Le PVB est le film intercalaire standard du verre feuilleté : il maintient les éclats de verre solidaires en cas d'impact."
+    },
+    {
+      "question": "Un impact sur un pare-brise peut être réparé (au lieu d'un remplacement) uniquement si :",
+      "options": ["L'impact est situé dans le champ de vision direct du conducteur", "L'impact est de petite taille (< 2 CHF), à plus de 6 cm du bord, hors sérigraphie et sans atteinte du PVB", "L'impact touche la sérigraphie (bande noire sur le bord)", "L'impact a créé une fissure traversante de plus de 10 cm"],
+      "reponse": 1,
+      "explication": "Sinon, le remplacement est obligatoire. Un impact dans le champ de vision du conducteur impose aussi le remplacement."
+    },
+    {
+      "question": "Parmi les techniques suivantes, laquelle n'est PAS un assemblage à froid ?",
+      "options": ["Le rivetage (rivets pleins ou aveugles)", "Le clinchage (agrafage par déformation locale)", "Le brasage à l'étain", "Le collage structurel à l'époxy"],
+      "reponse": 2,
+      "explication": "Le brasage à l'étain nécessite un apport de chaleur pour faire fondre le métal d'apport : ce n'est pas un assemblage à froid."
+    },
+    {
+      "question": "Le brasage se distingue du soudage par le fait que :",
+      "options": ["Il ne nécessite aucun métal d'apport", "La température de fusion du métal d'apport est inférieure à celle du métal de base", "La température de fusion du métal d'apport est supérieure à celle du métal de base", "Il ne peut être réalisé que sur l'aluminium"],
+      "reponse": 1,
+      "explication": "Seul le métal d'apport fond, ce qui préserve les propriétés du métal de base — idéal pour les tôles galvanisées et les aciers HLE."
+    },
+    {
+      "question": "Le procédé de soudage le plus adapté pour assembler des pièces en aluminium en carrosserie est :",
+      "options": ["Le soudage MAG avec gaz CO₂", "Le soudage TIG avec gaz argon pur", "Le soudage à l'électrode enrobée", "Le soudage oxyacétylénique standard"],
+      "reponse": 1,
+      "explication": "Le TIG avec argon pur permet un contrôle fin de l'apport thermique et évite l'oxydation. Le MAG et l'électrode enrobée sont réservés à l'acier."
+    },
+    {
+      "question": "Quel composant du système d'échappement a pour rôle de retenir les particules fines (moteur diesel) ?",
+      "options": ["Le catalyseur trois voies", "Le silencieux arrière", "Le filtre à particules (FAP)", "La sonde lambda"],
+      "reponse": 2,
+      "explication": "Le FAP retient les particules fines sur les moteurs diesel. Le catalyseur transforme les gaz polluants, la sonde lambda régule le mélange air/carburant."
+    },
+    {
+      "question": "Lorsqu'on chauffe une pièce métallique, elle :",
+      "options": ["Se contracte (diminue de volume)", "Se dilate (augmente de volume)", "Ne change ni de forme ni de volume", "Change de composition chimique"],
+      "reponse": 1,
+      "explication": "La dilatation thermique est un phénomène majeur à prendre en compte lors du soudage (déformations, jeux)."
+    },
+    {
+      "question": "Les zones de déformation programmées d'une carrosserie moderne sont conçues pour :",
+      "options": ["Résister sans se déformer à tous les chocs, pour préserver l'esthétique", "Se déformer de manière contrôlée afin d'absorber l'énergie du choc et de protéger la cellule habitacle", "Faciliter la réparation en cas de petit choc", "Réduire le poids du véhicule"],
+      "reponse": 1,
+      "explication": "Ces zones absorbent l'énergie du choc en s'écrasant de manière contrôlée, ce qui protège la cellule de survie et limite la décélération transmise aux occupants."
+    },
+    {
+      "question": "L'écrouissage désigne le durcissement d'un métal après déformation à froid, ce qui réduit sa malléabilité et augmente le risque de fissuration.",
+      "options": ["Vrai", "Faux"],
+      "reponse": 0,
+      "explication": "L'écrouissage rend la matière plus dure mais plus fragile ; c'est pourquoi l'aluminium supporte mal les redressages répétés."
+    },
+    {
+      "question": "La ductilité d'un matériau est sa capacité à se déformer sans se fissurer.",
+      "options": ["Vrai", "Faux"],
+      "reponse": 0,
+      "explication": "Une bonne ductilité permet le formage et le débosselage sans fissuration."
+    },
+    {
+      "question": "Le verre trempé (utilisé sur les vitres latérales et la lunette arrière) peut être réparé après un impact avec une résine de réparation.",
+      "options": ["Vrai", "Faux"],
+      "reponse": 1,
+      "explication": "Le verre trempé se fragmente entièrement en petits morceaux non coupants en cas d'impact : il n'est jamais réparable, seul le verre feuilleté l'est sous conditions."
+    },
+    {
+      "question": "Lors de la pose d'un pare-brise, il faut appliquer un primaire d'adhérence sur la carrosserie avant le cordon de colle polyuréthane.",
+      "options": ["Vrai", "Faux"],
+      "reponse": 0,
+      "explication": "Le primaire assure la liaison entre la carrosserie et le cordon de colle. Sans lui, la colle n'accroche pas correctement."
+    },
+    {
+      "question": "Le rivetage aveugle (pop) est particulièrement utilisé pour l'assemblage de pièces en aluminium, car il n'apporte pas de chaleur qui altérerait le matériau.",
+      "options": ["Vrai", "Faux"],
+      "reponse": 0,
+      "explication": "Le soudage de l'aluminium crée une zone affectée thermiquement (ZAT) qui perd de sa résistance ; le rivetage à froid évite ce problème."
+    },
+    {
+      "question": "Lors d'un soudage MIG/MAG, le port du masque de soudure et l'aspiration des fumées ne sont obligatoires qu'en atelier fermé.",
+      "options": ["Vrai", "Faux"],
+      "reponse": 1,
+      "explication": "Les EPI et l'aspiration des fumées sont obligatoires dans tous les cas : les fumées contiennent des oxydes métalliques toxiques et les UV du soudage brûlent les yeux même à l'extérieur."
+    },
+    {
+      "question": "Un écran thermique en aluminium placé entre l'échappement et la carrosserie sert à protéger cette dernière de la chaleur excessive.",
+      "options": ["Vrai", "Faux"],
+      "reponse": 0,
+      "explication": "L'écran thermique reflète et dissipe la chaleur, protégeant la carrosserie, l'habitacle et les composants sensibles."
+    },
+    {
+      "question": "La chaleur et la température désignent la même grandeur physique et s'expriment avec la même unité.",
+      "options": ["Vrai", "Faux"],
+      "reponse": 1,
+      "explication": "La chaleur (en joules) est une énergie en transfert ; la température (en °C ou K) est l'état thermique d'un corps. Deux corps de même température peuvent contenir des quantités de chaleur très différentes."
+    },
+    {
+      "question": "Lors d'un choc frontal, l'énergie du choc est transmise depuis la traverse avant vers les longerons, puis vers le tablier et enfin la cellule habitacle.",
+      "options": ["Vrai", "Faux"],
+      "reponse": 0,
+      "explication": "C'est le principe du crash management : l'énergie est absorbée d'abord par la traverse, puis par les longerons qui s'écrasent en accordéon, avant d'atteindre le tablier et la cellule habitacle qui reste intacte."
+    },
+    {
+      "question": "Un contrôle dimensionnel du châssis à l'aide d'un banc de mesure n'est nécessaire qu'en cas de choc violent visible ; un léger désalignement des jeux d'ajustement peut être ignoré.",
+      "options": ["Vrai", "Faux"],
+      "reponse": 1,
+      "explication": "Un désalignement des jeux (portes qui frottent, capot mal aligné) est un signe fort d'une déformation structurelle interne, même sans dégât visible."
+    }
+  ]
+}
