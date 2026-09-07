@@ -1,0 +1,188 @@
+{
+  "id": "peintre-pq-mesure-poncage-oxydation",
+  "titre": "Mesure d'épaisseur, décapage, ponçage et oxydation",
+  "metier": "peintre",
+  "annee": 4,
+  "module": "Préparation PQ",
+  "version": "2026-09",
+  "cartes": [
+    {
+      "recto": "Quels sont les trois procédés de mesure de l'épaisseur des couches de peinture, et sur quels supports fonctionnent-ils ?",
+      "verso": "Magnétique : supports ferromagnétiques (acier). Courants de Foucault : supports métalliques non ferromagnétiques (aluminium). Ultrasons : tous supports, y compris plastiques et composites."
+    },
+    {
+      "recto": "Quelles sont les 4 étapes d'un test d'adhérence par quadrillage (cross-cut test) ?",
+      "verso": "Nettoyer et sécher la surface ; réaliser le quadrillage avec un outil à lames multiples ; brosser puis appliquer un ruban adhésif normalisé et le presser ; arracher le ruban à environ 60° et évaluer le résultat sur une échelle de 0 à 5."
+    },
+    {
+      "recto": "Une mesure d'épaisseur donne 180 µm alors que la référence constructeur est de 80 à 120 µm. Que signifie cette sur-épaisseur ?",
+      "verso": "Cette zone a presque à coup sûr déjà été repeinte (réparation antérieure) : à prendre en compte pour l'historique du véhicule, le ponçage nécessaire et le risque d'adhérence différente."
+    },
+    {
+      "recto": "Citez trois méthodes de décapage d'une peinture existante.",
+      "verso": "Décapage mécanique (abrasion), décapage chimique (décapant qui ramollit le film), décapage thermique (chaleur qui fait cloquer) — aussi : par projection (sablage), au laser ou cryogénique."
+    },
+    {
+      "recto": "Citez deux méthodes de dérouillage et un avantage/inconvénient de chacune.",
+      "verso": "Mécanique (ponceuse, brosse métallique) : rapide, mais peut déformer la tôle si mal utilisé. Chimique (convertisseur de rouille) : atteint les zones difficiles d'accès, mais plus long et nécessite des EPI."
+    },
+    {
+      "recto": "Citez quatre raisons pour lesquelles le ponçage est indispensable avant une réparation.",
+      "verso": "Créer une accroche mécanique, éliminer les défauts de surface (rouille, anciennes couches), lisser et mettre en forme, préparer les raccords (flou) entre anciennes et nouvelles couches."
+    },
+    {
+      "recto": "Quelle est la différence de mouvement entre une ponceuse vibrante et une ponceuse excentrique, et les traces qu'elles laissent ?",
+      "verso": "Vibrante : mouvement linéaire alternatif, traces en petits traits courts réguliers. Excentrique : rotation + mouvement excentrique aléatoire, traces en petits cercles entrecroisés sans direction — idéale pour une finition fine."
+    },
+    {
+      "recto": "Quelle machine laisse des cercles concentriques marqués et agressifs sur la surface ?",
+      "verso": "La meuleuse d'angle : le plateau tourne uniquement autour d'un axe à haute vitesse, typique d'un décapage énergique."
+    },
+    {
+      "recto": "Quelle granulation utilise-t-on pour le décapage grossier de peinture ou le travail du mastic polyester ?",
+      "verso": "P80 (gros grain)."
+    },
+    {
+      "recto": "Quelle granulation utilise-t-on pour le ponçage de l'apprêt avant peinture ?",
+      "verso": "P400 (grain fin, finition avant peinture)."
+    },
+    {
+      "recto": "Quelle granulation utilise-t-on pour le matifiage (ponçage humide) avant vernissage ?",
+      "verso": "P800."
+    },
+    {
+      "recto": "Quelle granulation utilise-t-on pour effacer une inclusion dans le vernis avant polissage ?",
+      "verso": "P1500 (très fin)."
+    },
+    {
+      "recto": "Citez trois règles d'entretien d'une ponceuse pour garantir sa longévité.",
+      "verso": "Nettoyer après chaque utilisation, huiler régulièrement l'entrée d'air (ponceuse pneumatique) avec de l'air propre et sec, vérifier et remplacer le plateau Velcro/mousse dès qu'il est usé."
+    },
+    {
+      "recto": "Citez trois produits de nettoyage utilisés avant peinture et ce qu'ils éliminent.",
+      "verso": "Dégraissant solvanté (graisses, silicones, cires), nettoyant à base aqueuse (salissures hydrosolubles), produit antistatique (charges électrostatiques qui attirent les poussières)."
+    },
+    {
+      "recto": "Quelles sont les 4 étapes du nettoyage d'une surface avant application de l'apprêt ?",
+      "verso": "Prélavage (air comprimé/eau), dégraissage solvanté (méthode des deux chiffons), dégraissage aqueux si nécessaire, traitement antistatique juste avant l'application."
+    },
+    {
+      "recto": "Pourquoi essuie-t-on immédiatement le dégraissant solvanté avec un second chiffon (méthode « deux chiffons ») ?",
+      "verso": "Pour emporter les contaminants avant l'évaporation complète du produit, plutôt que de les laisser sécher et se redéposer sur la surface."
+    },
+    {
+      "recto": "Citez trois caractéristiques de l'oxygène (O₂).",
+      "verso": "Gaz incolore, inodore et insipide, comburant très réactif chimiquement, indispensable à la respiration et à la combustion — représente environ 21 % de l'air atmosphérique."
+    },
+    {
+      "recto": "Qu'est-ce que l'oxydation d'un point de vue chimique ?",
+      "verso": "Une réaction chimique dans laquelle un corps (souvent un métal) réagit avec l'oxygène ou un autre agent oxydant, formant un oxyde et modifiant la couleur, la masse et les propriétés du matériau."
+    },
+    {
+      "recto": "Donnez deux exemples d'oxydation rencontrés en carrosserie.",
+      "verso": "La formation de rouille sur une tôle d'acier non protégée (oxyde de fer), et le ternissement ou la craquelure d'une peinture ancienne sous l'effet des UV et de l'oxygène."
+    },
+    {
+      "recto": "Citez trois mesures pour prévenir ou ralentir l'oxydation d'une tôle d'acier réparée.",
+      "verso": "Éliminer entièrement la rouille avant réparation, appliquer rapidement un apprêt anticorrosion, appliquer un revêtement complet et continu pour isoler la tôle de l'humidité et de l'oxygène."
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Quel procédé de mesure d'épaisseur de peinture fonctionne uniquement sur les supports ferromagnétiques comme l'acier ?",
+      "options": ["Le procédé à ultrasons", "Le procédé magnétique (induction magnétique)", "Le procédé par courants de Foucault", "Le procédé optique"],
+      "reponse": 1,
+      "explication": "Le capteur magnétique mesure la variation du champ magnétique entre la sonde et le métal ferromagnétique."
+    },
+    {
+      "question": "Quel procédé de mesure d'épaisseur fonctionne sur tous types de supports, y compris les plastiques ?",
+      "options": ["Le procédé magnétique", "Le procédé par courants de Foucault", "Le procédé à ultrasons", "Le procédé par pesée"],
+      "reponse": 2,
+      "explication": "Le procédé à ultrasons mesure le temps de propagation d'une onde ultrasonore à travers le revêtement, quel que soit le support."
+    },
+    {
+      "question": "Lors d'un test d'adhérence par quadrillage, à quel angle doit-on arracher le ruban adhésif ?",
+      "options": ["Environ 15°", "Environ 60°", "Environ 90°, vers le haut", "Environ 180°, à plat"],
+      "reponse": 1,
+      "explication": "Le ruban est arraché d'un geste ferme à environ 60° par rapport à la surface."
+    },
+    {
+      "question": "Une mesure d'épaisseur de 180 µm alors que la référence constructeur est de 80 à 120 µm indique le plus probablement :",
+      "options": ["Un défaut de l'appareil de mesure", "Une zone qui a déjà été repeinte", "Une sous-épaisseur dangereuse", "Une peinture d'origine parfaitement conforme"],
+      "reponse": 1,
+      "explication": "Une sur-épaisseur aussi nette signale presque à coup sûr une réparation antérieure sur cette zone."
+    },
+    {
+      "question": "Le décapage thermique consiste à :",
+      "options": ["Projeter un abrasif sous pression", "Chauffer localement la peinture pour la faire cloquer avant de la gratter", "Dissoudre la peinture avec un décapant chimique", "Poncer la peinture avec une meuleuse"],
+      "reponse": 1,
+      "explication": "Un pistolet à air chaud provoque le cloquage ou le ramollissement de la peinture, qui est ensuite grattée."
+    },
+    {
+      "question": "Le dérouillage chimique atteint les zones difficiles d'accès mais nécessite un rinçage et une neutralisation soigneux.",
+      "options": ["Vrai", "Faux"],
+      "reponse": 0,
+      "explication": "Un convertisseur de rouille ou de l'acide phosphorique neutralise la rouille résiduelle, mais demande rinçage, neutralisation et EPI adaptés."
+    },
+    {
+      "question": "Laquelle de ces raisons justifie le ponçage avant une réparation ?",
+      "options": ["Créer une accroche mécanique pour la couche suivante", "Rendre la surface totalement lisse sans jamais accrocher", "Remplacer le dégraissage", "Éviter d'avoir à appliquer un apprêt"],
+      "reponse": 0,
+      "explication": "La surface poncée, rugueuse, favorise l'adhérence de l'apprêt, du mastic ou de la peinture."
+    },
+    {
+      "question": "Quelle ponceuse laisse une image de ponçage en petits cercles entrecroisés sans direction privilégiée ?",
+      "options": ["La ponceuse vibrante", "La ponceuse excentrique", "La meuleuse d'angle", "La cale à poncer manuelle"],
+      "reponse": 1,
+      "explication": "La ponceuse excentrique combine rotation et mouvement excentrique, ce qui produit un déplacement aléatoire idéal pour une finition fine."
+    },
+    {
+      "question": "Pour le décapage grossier de peinture ou le travail du mastic polyester, quelle granulation utilise-t-on ?",
+      "options": ["P80", "P400", "P800", "P1500"],
+      "reponse": 0,
+      "explication": "P80 est un gros grain adapté au décapage grossier et au mastic polyester."
+    },
+    {
+      "question": "Pour le ponçage de l'apprêt avant peinture, quelle granulation utilise-t-on ?",
+      "options": ["P80", "P180", "P400", "P1500"],
+      "reponse": 2,
+      "explication": "P400 permet une finition fine de l'apprêt avant application de la peinture."
+    },
+    {
+      "question": "Pour le matifiage (ponçage humide) avant vernissage, quelle granulation utilise-t-on ?",
+      "options": ["P80", "P180", "P800", "P1500"],
+      "reponse": 2,
+      "explication": "P800 est utilisé pour le ponçage humide qui matifie la surface avant le vernis."
+    },
+    {
+      "question": "Pour effacer une inclusion dans le vernis avant polissage, quelle granulation utilise-t-on ?",
+      "options": ["P80", "P400", "P800", "P1500"],
+      "reponse": 3,
+      "explication": "P1500 est un grain très fin utilisé pour corriger un défaut de vernis avant polissage."
+    },
+    {
+      "question": "Il est recommandé d'essuyer immédiatement le dégraissant solvanté avec un second chiffon propre, avant qu'il ne s'évapore complètement.",
+      "options": ["Vrai", "Faux"],
+      "reponse": 0,
+      "explication": "C'est la méthode « deux chiffons » : un mouillé, un sec, pour emporter les contaminants avant évaporation."
+    },
+    {
+      "question": "L'oxygène représente environ 21 % de l'air atmosphérique.",
+      "options": ["Vrai", "Faux"],
+      "reponse": 0,
+      "explication": "L'oxygène (O₂) constitue environ 21 % de l'air que nous respirons."
+    },
+    {
+      "question": "L'oxydation d'un métal correspond à :",
+      "options": ["Une réaction chimique avec l'oxygène ou un agent oxydant qui forme un oxyde", "Un simple changement de température sans réaction chimique", "Un phénomène qui ne concerne que l'aluminium", "Un traitement volontaire pour protéger la tôle"],
+      "reponse": 0,
+      "explication": "L'oxydation forme un oxyde et modifie la couleur, la masse et les propriétés mécaniques du matériau."
+    },
+    {
+      "question": "Laquelle de ces mesures ne prévient PAS l'oxydation d'une tôle réparée ?",
+      "options": ["Éliminer entièrement la rouille avant réparation", "Appliquer rapidement un apprêt anticorrosion", "Laisser la tôle nue exposée à l'air le plus longtemps possible avant peinture", "Appliquer un revêtement complet et continu"],
+      "reponse": 2,
+      "explication": "Il faut au contraire protéger la tôle mise à nu le plus rapidement possible pour éviter qu'elle ne s'oxyde de nouveau."
+    }
+  ]
+}
