@@ -1,11 +1,13 @@
-{
-  "id": "peintre-pq-securite-travail",
-  "titre": "Sécurité au travail et protection de la santé",
-  "metier": "peintre",
-  "annee": 4,
-  "module": "Préparation PQ",
-  "version": "2026-09",
-  "fichier": "peintre-pq-securite-travail.json",
-  "cartes": 20,
-  "quiz": 10
-}
+[
+  {
+    "id": "peintre-pq-securite-travail",
+    "titre": "Sécurité au travail et protection de la santé",
+    "metier": "peintre",
+    "annee": 4,
+    "module": "Préparation PQ",
+    "version": "2026-09",
+    "fichier": "peintre-pq-securite-travail.json",
+    "cartes": 20,
+    "quiz": 10
+  }
+]
