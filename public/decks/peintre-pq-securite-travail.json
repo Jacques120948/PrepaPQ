@@ -1,0 +1,92 @@
+{
+  "id": "peintre-pq-securite-travail",
+  "titre": "Sécurité au travail et protection de la santé",
+  "metier": "peintre",
+  "annee": 4,
+  "module": "Préparation PQ",
+  "version": "2026-09",
+  "cartes": [
+    { "recto": "Que signifie PERCOS et qui la désigne ?", "verso": "PERsonne de COntact pour la Sécurité au travail, désignée par l'employeur comme référent sécurité et santé ; elle assiste l'employeur, forme les collaborateurs et contrôle postes, machines et EPI." },
+    { "recto": "Trois devoirs de l'employeur selon la LAA et l'OPA", "verso": "Prendre toutes les mesures reconnues de protection ; informer et former les collaborateurs sur les risques ; fournir gratuitement les EPI et en assurer l'entretien." },
+    { "recto": "Trois devoirs de l'employé selon la LAA et l'OPA", "verso": "Respecter les consignes et utiliser correctement les EPI ; signaler immédiatement tout défaut ou situation dangereuse ; ne mettre en danger ni soi-même ni autrui." },
+    { "recto": "Quatre mesures d'hygiène personnelle en atelier de peinture", "verso": "Se laver les mains avant les pauses avec un nettoyant spécifique, jamais au solvant ; ne pas manger, boire ni fumer à l'atelier ; changer les vêtements souillés ; crème barrière avant, crème hydratante après." },
+    { "recto": "Quatre EPI du peintre en carrosserie et la partie du corps protégée", "verso": "Masque A2P3 ou à adduction d'air pour les voies respiratoires ; gants nitrile ou néoprène pour les mains ; lunettes ou écran facial pour les yeux ; chaussures de sécurité pour les pieds." },
+    { "recto": "Les trois éléments du triangle du feu", "verso": "Combustible (chiffons imbibés de solvant, poussières de ponçage), comburant (oxygène de l'air, 21 %), source d'inflammation (étincelle d'outil, flamme nue, surface chaude)." },
+    { "recto": "Quatre mesures de prévention incendie en atelier de peinture", "verso": "Stockage en armoire ventilée résistante au feu ; interdiction de fumer et de flamme nue ; mise à la terre des récipients et du matériel de pulvérisation ; chiffons imbibés dans une poubelle métallique fermée." },
+    { "recto": "Les quatre classes de feu et leur combustible", "verso": "A : solides formant des braises (bois, papier, tissu). B : liquides inflammables (solvants, diluants, peinture). C : gaz inflammables (propane, acétylène). D : métaux (aluminium, magnésium)." },
+    { "recto": "Un bac de solvant prend feu : quel extincteur, lequel est proscrit ?", "verso": "Feu de classe B : poudre ABC, CO2 ou mousse. Jamais d'eau : elle ne se mélange pas au solvant, projette le liquide enflammé et étend le feu." },
+    { "recto": "Deux objectifs principaux de l'OChim", "verso": "Protéger la santé humaine contre les effets dangereux des substances et préparations, et protéger l'environnement (sol, air, eau) contre la pollution chimique." },
+    { "recto": "Propriétés physiques dangereuses et propriétés dangereuses pour la santé (OChim)", "verso": "Physiques : inflammable, explosif, comburant, gaz sous pression, corrosif pour les métaux. Santé : toxique aigu, CMR, sensibilisant, irritant, corrosif pour la peau." },
+    { "recto": "À quoi sert une fiche de données de sécurité et qui doit la fournir ?", "verso": "Elle informe sur les dangers, les mesures de protection, les procédures d'urgence, le stockage et l'élimination ; fournie gratuitement par le fabricant, l'importateur ou le fournisseur, en français et mise à jour." },
+    { "recto": "Combien de rubriques compte une FDS ? Citez-en trois.", "verso": "16 rubriques normalisées, dont la rubrique 2 (identification des dangers), la rubrique 4 (premiers secours) et la rubrique 8 (contrôles de l'exposition et protection individuelle)." },
+    { "recto": "Différence entre une substance et une préparation au sens de l'OChim", "verso": "La substance est un élément ou un composé à l'état pur (acétone, toluène) ; la préparation est un mélange d'au moins deux substances (durcisseur, peinture prête à l'emploi)." },
+    { "recto": "Quatre informations obligatoires sur l'étiquette d'un produit chimique dangereux", "verso": "Nom commercial et coordonnées du fournisseur, pictogrammes SGH, mention d'avertissement (Danger ou Attention), phrases de danger H et conseils de prudence P." },
+    { "recto": "Que sont les phrases H et les phrases P ?", "verso": "Phrases H : mentions de danger décrivant la nature et la gravité du danger (H225, liquide et vapeurs très inflammables). Phrases P : conseils de prudence (P280, porter des gants de protection)." },
+    { "recto": "Signification de H225, H317, H336 et H351", "verso": "H225 : liquide et vapeurs très inflammables. H317 : peut provoquer une allergie cutanée. H336 : peut provoquer somnolence ou vertiges. H351 : susceptible de provoquer le cancer." },
+    { "recto": "Pictogrammes SGH02, SGH03 et SGH06", "verso": "SGH02 flamme : matière inflammable. SGH03 flamme sur un cercle : matière comburante. SGH06 tête de mort : toxicité aiguë, mortel ou toxique à faible dose." },
+    { "recto": "Pictogrammes SGH05, SGH07 et SGH08", "verso": "SGH05 : corrosif pour la peau ou les métaux. SGH07 point d'exclamation : nocif, irritant, sensibilisant cutané. SGH08 : CMR et sensibilisation respiratoire." },
+    { "recto": "Les trois voies de pénétration des substances toxiques", "verso": "Respiratoire (vapeurs de solvant et brouillard de peinture), cutanée (durcisseur ou solvant sur la peau), digestive (mains contaminées portées à la bouche)." }
+  ],
+  "quiz": [
+    {
+      "question": "Dans la signalisation de sécurité, que signifie un panneau rond de couleur bleue ?",
+      "options": ["Une interdiction, par exemple de fumer", "Une obligation, par exemple le port du masque", "Un avertissement de danger", "L'emplacement du matériel de lutte contre l'incendie"],
+      "reponse": 1,
+      "explication": "Le rond bleu impose une action au collaborateur, alors que l'interdiction est un rond rouge barré, l'avertissement un triangle jaune et le matériel incendie un rectangle rouge."
+    },
+    {
+      "question": "À quoi correspond la phrase de danger H336 sur l'étiquette d'un produit ?",
+      "options": ["Liquide et vapeurs très inflammables", "Peut provoquer une allergie cutanée", "Susceptible de provoquer le cancer", "Peut provoquer somnolence ou vertiges"],
+      "reponse": 3,
+      "explication": "H336 signale un effet sur le système nerveux central, tandis que l'inflammabilité est H225, l'allergie cutanée H317 et le risque cancérogène H351."
+    },
+    {
+      "question": "Pourquoi la voie respiratoire est-elle considérée comme la plus dangereuse pour un peintre en carrosserie ?",
+      "options": ["La surface d'échange des poumons est très grande et le produit passe directement dans le sang sans filtration par le foie", "Les vapeurs de solvant se concentrent au sol, loin des voies respiratoires", "La peau saine bloque totalement les solvants, contrairement aux poumons", "L'exposition ne dure que le temps de la pulvérisation au pistolet"],
+      "reponse": 0,
+      "explication": "Les poumons offrent 80 à 100 m2 de surface richement vascularisée, et l'exposition est continue pendant tout le travail, ce qui rend le passage dans le sang rapide et cumulatif."
+    },
+    {
+      "question": "Un collègue reçoit un éclat de métal dans l'oeil lors d'un ponçage. Quelle est la mesure de premiers secours correcte ?",
+      "options": ["Chasser l'éclat avec de l'air comprimé", "Retirer l'éclat à l'aide d'une compresse stérile", "Couvrir les deux yeux avec une compresse stérile sans toucher au corps étranger", "Appliquer une pommade ophtalmique et attendre l'amélioration"],
+      "reponse": 2,
+      "explication": "Un corps étranger enclavé ne doit jamais être retiré sur place, et couvrir aussi l'oeil sain limite les mouvements oculaires avant la prise en charge médicale."
+    },
+    {
+      "question": "Du durcisseur atteint la peau de l'avant-bras d'un collègue, qui ressent immédiatement une brûlure. Que faites-vous ?",
+      "options": ["Vous neutralisez le produit avec un solvant de nettoyage", "Vous retirez les vêtements contaminés et rincez à l'eau claire tiède pendant 15 à 20 minutes", "Vous appliquez une pommade grasse puis un pansement", "Vous frottez la peau avec un chiffon sec avant un rinçage bref"],
+      "reponse": 1,
+      "explication": "Seul un rinçage abondant et prolongé élimine le produit, et les vêtements imbibés maintiendraient le contact ; aucune crème ni neutralisant ne doit être appliqué sans instruction médicale."
+    },
+    {
+      "question": "Quelle protection respiratoire utilisez-vous pour un ponçage à sec de mastic polyester ?",
+      "options": ["Masque à poussières FFP2 ou FFP3", "Demi-masque à cartouches A2P3", "Masque à adduction d'air", "Masque en tissu, suffisant pour les poussières"],
+      "reponse": 0,
+      "explication": "Le risque est ici la poussière fine respirable, retenue par un filtre à particules, alors que les cartouches et l'adduction d'air visent les vapeurs et les isocyanates."
+    },
+    {
+      "question": "Vous appliquez au pistolet un vernis 2K contenant des isocyanates en cabine. Quelle protection respiratoire est correcte ?",
+      "options": ["Demi-masque à cartouches A2P3", "Masque à poussières FFP3", "Demi-masque A2P3 complété par des lunettes de protection", "Masque à adduction d'air"],
+      "reponse": 3,
+      "explication": "Les isocyanates traversent les cartouches en quelques heures sans signe d'avertissement olfactif : seule une arrivée d'air respirable extérieur protège réellement l'appareil respiratoire."
+    },
+    {
+      "question": "Laquelle de ces situations correspond à une toxicité chronique ?",
+      "options": ["Un malaise survenant en quelques minutes après l'inhalation massive de vapeurs", "Une brûlure cutanée provoquée par un produit corrosif", "Une atteinte du foie ou du système nerveux après des années d'exposition à faibles doses", "Une projection de diluant dans l'oeil lors du nettoyage du pistolet"],
+      "reponse": 2,
+      "explication": "La toxicité chronique résulte du cumul d'expositions répétées à faibles doses sur des mois ou des années, contrairement à l'effet rapide d'une exposition unique et forte."
+    },
+    {
+      "question": "Qu'est-ce qui caractérise une allergie professionnelle chez le peintre en carrosserie ?",
+      "options": ["Après la phase de sensibilisation, le travailleur réagit même à de très faibles doses, souvent de façon irréversible", "Elle disparaît dès que le port du masque devient systématique", "Elle se déclenche dès la première exposition au produit", "Elle ne touche que la peau, jamais les voies respiratoires"],
+      "reponse": 0,
+      "explication": "La sensibilisation s'installe après des mois ou des années d'exposition, puis de très faibles doses suffisent à déclencher la réaction, comme l'asthme aux isocyanates."
+    },
+    {
+      "question": "Vous remettez un produit chimique dangereux à un client. Quelle règle respectez-vous ?",
+      "options": ["Le transvaser dans un récipient plus petit pour faciliter le transport", "Retirer l'étiquette d'origine et inscrire le nom du produit au marqueur", "Le remettre sans fiche de données de sécurité si le client est un professionnel", "Le remettre dans son emballage d'origine avec une étiquette lisible et la FDS à jour"],
+      "reponse": 3,
+      "explication": "L'emballage et l'étiquette d'origine garantissent l'identification des dangers, et la FDS à jour doit accompagner toute remise destinée à un usage professionnel."
+    }
+  ]
+}
