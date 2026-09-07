@@ -1,0 +1,66 @@
+{
+  "id": "exemple-tolier-redressage",
+  "titre": "Redressage et débosselage (exemple à remplacer)",
+  "metier": "tolier",
+  "annee": 4,
+  "module": "Préparation PQ",
+  "version": "2026-09",
+  "cartes": [
+    {
+      "recto": "Qu'est-ce que le débosselage sans peinture (DSP) ?",
+      "verso": "Une technique qui consiste à repousser ou tirer la tôle de l'intérieur ou de l'extérieur pour effacer une bosse, sans avoir besoin de repeindre."
+    },
+    {
+      "recto": "Pourquoi utilise-t-on un marteau et un tas de carrossier pour redresser une tôle ?",
+      "verso": "Le tas soutient la tôle par en dessous pendant que le marteau frappe par-dessus, pour reformer la surface sans la percer."
+    },
+    {
+      "recto": "Qu'est-ce qu'un point dur sur une tôle bosselée ?",
+      "verso": "Une zone où la déformation est la plus marquée et la plus rigide, qu'il faut détendre en premier avant de travailler le reste de la bosse."
+    },
+    {
+      "recto": "À quoi sert un tire-clou (slide hammer) ?",
+      "verso": "À tirer une tôle vers l'extérieur depuis l'extérieur du panneau, quand on n'a pas accès à l'intérieur."
+    },
+    {
+      "recto": "Que vérifie-t-on avec une règle de carrossier posée sur une tôle redressée ?",
+      "verso": "La planéité de la surface : la règle doit affleurer partout, sans jour visible sous la lumière."
+    },
+    {
+      "recto": "Pourquoi limite-t-on la chaleur appliquée sur une tôle lors du redressage ?",
+      "verso": "Une chauffe excessive peut déformer davantage la tôle, modifier ses propriétés mécaniques et endommager sa couche de protection."
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Quelle est la première étape avant de commencer à redresser une bosse ?",
+      "options": ["Chauffer la zone au chalumeau", "Analyser la déformation et repérer le point dur", "Appliquer du mastic", "Poncer toute la surface"],
+      "reponse": 1,
+      "explication": "On étudie toujours la déformation avant d'intervenir, pour travailler dans le bon ordre et ne pas aggraver la bosse."
+    },
+    {
+      "question": "Le débosselage sans peinture (DSP) est adapté quand...",
+      "options": ["la peinture est fissurée sur la bosse", "la tôle est percée", "la peinture d'origine est intacte", "il faut remplacer le panneau"],
+      "reponse": 2,
+      "explication": "Le DSP ne fonctionne que si la couche de peinture n'a pas été endommagée par le choc."
+    },
+    {
+      "question": "Un tas de carrossier sert principalement à...",
+      "options": ["couper la tôle", "soutenir la tôle pendant le martelage", "chauffer la tôle", "mesurer la planéité"],
+      "reponse": 1,
+      "explication": "Le tas fait contrepoids sous la tôle pendant que le marteau travaille dessus."
+    },
+    {
+      "question": "Que risque-t-on en chauffant trop longtemps une même zone de tôle ?",
+      "options": ["Rien, la tôle refroidit toujours de la même façon", "Une déformation supplémentaire et une perte de résistance", "Un gain de résistance", "Une meilleure adhérence de la peinture"],
+      "reponse": 1,
+      "explication": "Une chauffe excessive fragilise localement la tôle et peut créer de nouvelles déformations."
+    },
+    {
+      "question": "Pour contrôler une surface redressée, on utilise...",
+      "options": ["Un pied à coulisse", "Une règle de carrossier", "Un multimètre", "Un pistolet à peinture"],
+      "reponse": 1,
+      "explication": "La règle de carrossier permet de visualiser les creux ou bosses restants par la lumière qui passe dessous."
+    }
+  ]
+}

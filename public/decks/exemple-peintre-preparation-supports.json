@@ -1,0 +1,66 @@
+{
+  "id": "exemple-peintre-preparation-supports",
+  "titre": "Préparation des supports avant peinture (exemple à remplacer)",
+  "metier": "peintre",
+  "annee": 4,
+  "module": "Préparation PQ",
+  "version": "2026-09",
+  "cartes": [
+    {
+      "recto": "Pourquoi dégraisse-t-on une surface avant de la poncer ?",
+      "verso": "Pour éviter d'incruster des graisses et silicones dans le papier abrasif et dans le support, ce qui provoquerait des cratères dans la peinture."
+    },
+    {
+      "recto": "Que signifie le grain d'un papier abrasif, par exemple P400 ?",
+      "verso": "Plus le chiffre est grand, plus le grain est fin : un P400 est plus fin qu'un P180."
+    },
+    {
+      "recto": "Pourquoi applique-t-on un apprêt garnissant sur une réparation ?",
+      "verso": "Pour combler les micro-défauts, uniformiser la surface et créer une bonne accroche pour les couches suivantes."
+    },
+    {
+      "recto": "Qu'est-ce que le farinage d'une ancienne peinture ?",
+      "verso": "Une dégradation de la couche de vernis ou de peinture qui laisse une poudre blanchâtre en surface, signe qu'il faut bien la poncer avant de repeindre."
+    },
+    {
+      "recto": "Pourquoi masque-t-on les zones à ne pas peindre avec du papier et de l'adhésif ?",
+      "verso": "Pour protéger les surfaces voisines des projections de peinture et obtenir des limites nettes."
+    },
+    {
+      "recto": "Quel est le rôle du temps de flash-off entre deux couches de base ?",
+      "verso": "Laisser s'évaporer les solvants avant d'appliquer la couche suivante, pour éviter les coulures et les problèmes d'adhérence."
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Avant de poncer une surface, il faut d'abord...",
+      "options": ["Appliquer le vernis", "Dégraisser la surface", "Poser uniquement le masquage", "Chauffer la carrosserie"],
+      "reponse": 1,
+      "explication": "Le dégraissage évite d'incruster des impuretés qui provoqueraient des défauts dans la couche de peinture."
+    },
+    {
+      "question": "Un papier abrasif P800 est...",
+      "options": ["Plus grossier qu'un P400", "Plus fin qu'un P400", "De la même finesse qu'un P400", "Utilisé uniquement sur le métal nu"],
+      "reponse": 1,
+      "explication": "Plus le numéro de grain est élevé, plus le papier abrasif est fin."
+    },
+    {
+      "question": "Le farinage d'une ancienne peinture est signe que...",
+      "options": ["La peinture est neuve", "Il faut bien la poncer avant de repeindre", "Aucune préparation n'est nécessaire", "Il faut seulement la dégraisser"],
+      "reponse": 1,
+      "explication": "Le farinage montre une dégradation de surface qui doit être éliminée par ponçage avant toute nouvelle couche."
+    },
+    {
+      "question": "Le temps de flash-off entre deux couches sert à...",
+      "options": ["Refroidir la carrosserie", "Laisser évaporer les solvants", "Durcir le vernis définitivement", "Nettoyer le pistolet"],
+      "reponse": 1,
+      "explication": "Sans ce temps d'attente, les solvants emprisonnés peuvent provoquer coulures et défauts d'adhérence."
+    },
+    {
+      "question": "L'apprêt garnissant est appliqué pour...",
+      "options": ["Remplacer le mastic", "Combler les micro-défauts et uniformiser la surface", "Protéger uniquement contre les UV", "Remplacer le vernis"],
+      "reponse": 1,
+      "explication": "L'apprêt garnissant prépare une surface régulière avant l'application de la teinte."
+    }
+  ]
+}

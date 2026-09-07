@@ -1,0 +1,62 @@
+// MODÈLE — ceci n'est PAS un fichier JSON valide, à cause des commentaires.
+// C'est un exemple à suivre pour créer un nouveau jeu de cartes.
+//
+// Pour créer un vrai jeu :
+//   1. Copiez la structure ci-dessous dans un nouveau fichier .json
+//      (dans public/decks/, à côté des autres jeux).
+//   2. Supprimez tous les commentaires (les lignes qui commencent par //).
+//   3. Ajoutez votre fichier à la liste dans public/decks/index.json.
+//   4. Lancez « npm run verifier » pour vérifier qu'il est bien formé.
+//
+// Voir le README.md pour la marche à suivre complète, pas à pas.
+{
+  // Identifiant unique du jeu : minuscules, sans accent, mots séparés par
+  // des tirets. Sert de nom de fichier interne, ne change jamais après
+  // publication (sinon la progression des apprentis sur ce jeu est perdue).
+  "id": "tolier-pq-exemple",
+
+  // Titre affiché aux apprentis.
+  "titre": "Titre du jeu affiché aux apprentis",
+
+  // "tolier" ou "peintre" — sert au filtre de la page d'accueil.
+  "metier": "tolier",
+
+  // Année de formation concernée (1 à 4).
+  "annee": 4,
+
+  // Nom du module ou de la thématique, affiché sous le titre.
+  "module": "Préparation PQ",
+
+  // Date de la dernière mise à jour du contenu, format AAAA-MM.
+  // IMPORTANT : changez cette valeur à chaque fois que vous modifiez le
+  // contenu des cartes ou du quiz. Cela réinitialise proprement la
+  // progression des apprentis sur ce jeu, et les en informe — pour éviter
+  // qu'ils révisent d'anciennes réponses devenues fausses.
+  "version": "2026-09",
+
+  // Les cartes recto/verso. Au moins une carte est obligatoire.
+  "cartes": [
+    {
+      "recto": "Question ou terme au recto de la carte",
+      "verso": "Réponse ou définition au verso de la carte"
+    },
+    {
+      "recto": "Une deuxième carte, par exemple...",
+      "verso": "...sa réponse."
+    }
+  ],
+
+  // Les questions du quiz. Au moins une question est obligatoire.
+  "quiz": [
+    {
+      "question": "Intitulé de la question",
+      // 2 à 6 options de réponse.
+      "options": ["Première option", "Deuxième option", "Troisième option", "Quatrième option"],
+      // Index (à partir de 0) de la bonne réponse dans le tableau "options".
+      // Ici, "reponse": 0 signifie que "Première option" est la bonne réponse.
+      "reponse": 0,
+      // Une phrase d'explication affichée après la réponse de l'apprenti.
+      "explication": "Une phrase qui explique pourquoi c'est la bonne réponse."
+    }
+  ]
+}

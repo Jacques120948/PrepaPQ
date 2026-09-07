@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bleu: #1f4e79;
+  --color-bleu-fonce: #163a5c;
+  --color-rouge: #c00000;
+  --color-papier: #faf9f6;
+  --color-tole: #d8dce1;
+  --color-encre: #14263a;
+
+  --font-sans: Arial, Helvetica, sans-serif;
+  --font-narrow: "Arial Narrow", Arial, Helvetica, sans-serif;
+}
+
+@layer base {
+  html {
+    color-scheme: light;
+  }
+
+  body {
+    margin: 0;
+    background-color: var(--color-papier);
+    color: var(--color-encre);
+    font-family: var(--font-sans);
+  }
+
+  h1,
+  h2,
+  h3 {
+    font-family: var(--font-narrow);
+  }
+
+  /* Focus clavier toujours visible, y compris sur les boutons personnalisés. */
+  :focus-visible {
+    outline: 3px solid var(--color-bleu);
+    outline-offset: 2px;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+}
