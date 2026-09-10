@@ -130,6 +130,7 @@ function CarteJeu({ deck }: { deck: Deck }) {
   const pourcentage =
     avancement.total === 0 ? 0 : Math.round((avancement.sues / avancement.total) * 100);
   const premierLancement = avancement.sues === 0 && !dernierQuiz;
+  const aReprendre = !premierLancement && avancement.sues < avancement.total;
 
   const reinitialiser = () => {
     const confirmation = window.confirm(
@@ -144,7 +145,14 @@ function CarteJeu({ deck }: { deck: Deck }) {
 
   return (
     <article className="rounded-2xl border border-tole bg-white p-4 shadow-sm transition-shadow motion-safe:hover:shadow-md">
-      <h3 className="text-base font-bold text-encre">{deck.titre}</h3>
+      <div className="flex items-start justify-between gap-2">
+        <h3 className="text-base font-bold text-encre">{deck.titre}</h3>
+        {aReprendre && (
+          <span className="shrink-0 rounded-full bg-orange-vif/15 px-2.5 py-1 text-xs font-semibold text-orange-vif">
+            À reprendre
+          </span>
+        )}
+      </div>
       <p className="mt-0.5 text-sm text-encre/70">
         {deck.module} · {deck.cartes.length} carte{deck.cartes.length > 1 ? "s" : ""}
       </p>
