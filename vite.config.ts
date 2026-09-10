@@ -52,7 +52,7 @@ export default defineConfig({
       workbox: {
         // Les jeux de cartes (JSON) doivent être mis en cache pour l'usage
         // hors ligne, au même titre que le code de l'application.
-        globPatterns: ["**/*.{js,css,html,svg,png,ico,json,woff2}"],
+        globPatterns: ["**/*.{js,css,html,svg,png,webp,ico,json,woff2}"],
       },
     }),
   ],

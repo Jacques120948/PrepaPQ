@@ -18,6 +18,11 @@ const LIBELLE_METIER: Record<Metier, string> = {
   peintre: "Peintre",
 };
 
+const IMAGE_METIER: Record<Metier, string> = {
+  tolier: `${import.meta.env.BASE_URL}images/metier-tolier.webp`,
+  peintre: `${import.meta.env.BASE_URL}images/metier-peintre.webp`,
+};
+
 const FILTRES: { valeur: FiltreMetier; libelle: string }[] = [
   { valeur: "tous", libelle: "Tous" },
   { valeur: "tolier", libelle: "Tôlier" },
@@ -82,6 +87,14 @@ export default function Accueil() {
 
       {groupes.map((groupe) => (
         <section key={groupe.metier} className="flex flex-col gap-3">
+          <div className="overflow-hidden rounded-2xl shadow-sm">
+            <img
+              src={IMAGE_METIER[groupe.metier]}
+              alt=""
+              className="h-28 w-full object-cover sm:h-36"
+              loading="lazy"
+            />
+          </div>
           <h2 className="text-lg font-bold text-encre">{LIBELLE_METIER[groupe.metier]}</h2>
           <ul className="flex flex-col gap-3">
             {groupe.decks.map((deck) => (
