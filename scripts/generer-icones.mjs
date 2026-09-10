@@ -1,37 +1,30 @@
-// Script ponctuel : régénère les icônes PWA à partir de public/favicon.svg.
+// Script ponctuel : régénère le favicon et les icônes PWA à partir de
+// scripts/assets/icon-source.png (l'icône d'appli fournie par l'enseignant).
 // À relancer manuellement si le logo change. N'est pas utilisé au build.
-import { mkdirSync, readFileSync } from "node:fs";
+import { mkdirSync } from "node:fs";
 import path from "node:path";
 import sharp from "sharp";
 
 const RACINE = path.resolve(import.meta.dirname, "..");
-const SVG = readFileSync(path.join(RACINE, "public/favicon.svg"));
-const DOSSIER_ICONES = path.join(RACINE, "public/icons");
+const SOURCE = path.join(RACINE, "scripts/assets/icon-source.png");
+const DOSSIER_PUBLIC = path.join(RACINE, "public");
+const DOSSIER_ICONES = path.join(DOSSIER_PUBLIC, "icons");
 
 mkdirSync(DOSSIER_ICONES, { recursive: true });
 
-async function icone(nom, taille, { marge = 0, fond } = {}) {
-  const zoneUtile = taille - marge * 2;
-  const base = sharp(SVG).resize(zoneUtile, zoneUtile);
-
-  const image = fond
-    ? base.extend({
-        top: marge,
-        bottom: marge,
-        left: marge,
-        right: marge,
-        background: fond,
-      })
-    : base;
-
-  await image.png().toFile(path.join(DOSSIER_ICONES, nom));
-  console.log(`✓ ${nom}`);
+async function icone(dossier, nom, taille) {
+  await sharp(SOURCE).resize(taille, taille).png().toFile(path.join(dossier, nom));
+  console.log(`✓ ${nom} (${taille}×${taille})`);
 }
 
-await icone("icon-192.png", 192);
-await icone("icon-512.png", 512);
-// Icône maskable : le logo doit tenir dans la zone sûre centrale (~80%),
-// avec un fond qui remplit tout le cadre (extrémité violette du dégradé).
-await icone("icon-maskable-512.png", 512, { marge: 51, fond: "#833AB4" });
+// Favicon affiché dans l'onglet du navigateur.
+await icone(DOSSIER_PUBLIC, "favicon.png", 192);
 
-console.log("Icônes générées dans public/icons/");
+// Icônes PWA (écran d'accueil une fois l'application installée).
+await icone(DOSSIER_ICONES, "icon-192.png", 192);
+await icone(DOSSIER_ICONES, "icon-512.png", 512);
+// L'icône fournie a déjà une bonne marge intérieure autour du motif : elle
+// convient telle quelle comme icône « maskable » (zone sûre centrale).
+await icone(DOSSIER_ICONES, "icon-maskable-512.png", 512);
+
+console.log("Favicon et icônes générés.");
