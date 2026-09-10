@@ -16,13 +16,13 @@ function App() {
 
   return (
     <div className="mx-auto flex min-h-svh max-w-2xl flex-col bg-papier">
-      <header className="flex items-center justify-between border-b border-tole bg-bleu px-4 py-3 text-papier">
+      <header className="flex items-center justify-between bg-degrade-marque px-4 py-3 text-papier shadow-md">
         <Link to="/" className="text-xl font-bold tracking-tight">
           PrépaPQ
         </Link>
         <Link
           to="/reglages"
-          className="flex min-h-11 min-w-11 items-center justify-center rounded-md px-3 text-sm font-medium hover:bg-bleu-fonce"
+          className="flex min-h-11 min-w-11 items-center justify-center rounded-full px-3 text-sm font-medium hover:bg-white/15"
         >
           Réglages
         </Link>

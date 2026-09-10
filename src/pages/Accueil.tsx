@@ -40,7 +40,7 @@ export default function Accueil() {
 
   return (
     <div className="flex flex-col gap-4">
-      <h1 className="text-2xl font-bold text-bleu-fonce">Vos jeux de révision</h1>
+      <h1 className="text-2xl font-bold text-degrade-marque">Vos jeux de révision</h1>
 
       <div role="group" aria-label="Filtrer par métier" className="flex gap-2">
         {FILTRES.map(({ valeur, libelle }) => {
@@ -51,10 +51,10 @@ export default function Accueil() {
               type="button"
               aria-pressed={actif}
               onClick={() => setFiltre(valeur)}
-              className={`min-h-11 flex-1 rounded-md border px-3 text-sm font-semibold transition-colors ${
+              className={`min-h-11 flex-1 rounded-full border px-3 text-sm font-semibold transition-colors ${
                 actif
-                  ? "border-bleu bg-bleu text-papier"
-                  : "border-tole bg-white text-encre hover:border-bleu"
+                  ? "border-transparent bg-degrade-marque text-papier shadow-sm"
+                  : "border-tole bg-white text-encre hover:border-violet"
               }`}
             >
               {libelle}
@@ -130,7 +130,7 @@ function CarteJeu({ deck }: { deck: Deck }) {
   };
 
   return (
-    <article className="rounded-lg border border-tole bg-white p-4 shadow-sm">
+    <article className="rounded-2xl border border-tole bg-white p-4 shadow-sm transition-shadow motion-safe:hover:shadow-md">
       <h3 className="text-base font-bold text-encre">{deck.titre}</h3>
       <p className="mt-0.5 text-sm text-encre/70">
         {deck.module} · {deck.cartes.length} carte{deck.cartes.length > 1 ? "s" : ""}
@@ -145,7 +145,10 @@ function CarteJeu({ deck }: { deck: Deck }) {
           aria-label={`Avancement du jeu ${deck.titre}`}
           className="h-2 w-full overflow-hidden rounded-full bg-tole"
         >
-          <div className="h-full rounded-full bg-bleu" style={{ width: `${pourcentage}%` }} />
+          <div
+            className="h-full rounded-full bg-degrade-marque"
+            style={{ width: `${pourcentage}%` }}
+          />
         </div>
         <p className="mt-1 text-xs text-encre/70">
           {premierLancement
@@ -163,13 +166,13 @@ function CarteJeu({ deck }: { deck: Deck }) {
       <div className="mt-3 flex gap-2">
         <Link
           to={`/jeu/${deck.id}/cartes`}
-          className="flex min-h-11 flex-1 items-center justify-center rounded-md bg-bleu px-3 text-sm font-semibold text-papier hover:bg-bleu-fonce"
+          className="flex min-h-11 flex-1 items-center justify-center rounded-full bg-degrade-marque px-3 text-sm font-semibold text-papier shadow-sm transition-transform motion-safe:hover:scale-[1.02]"
         >
           Cartes
         </Link>
         <Link
           to={`/jeu/${deck.id}/quiz`}
-          className="flex min-h-11 flex-1 items-center justify-center rounded-md border border-bleu px-3 text-sm font-semibold text-bleu hover:bg-bleu/10"
+          className="flex min-h-11 flex-1 items-center justify-center rounded-full border-2 border-violet px-3 text-sm font-semibold text-violet hover:bg-violet/10"
         >
           Quiz
         </Link>

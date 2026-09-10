@@ -31,7 +31,7 @@ async function icone(nom, taille, { marge = 0, fond } = {}) {
 await icone("icon-192.png", 192);
 await icone("icon-512.png", 512);
 // Icône maskable : le logo doit tenir dans la zone sûre centrale (~80%),
-// avec un fond bleu qui remplit tout le cadre.
-await icone("icon-maskable-512.png", 512, { marge: 51, fond: "#1F4E79" });
+// avec un fond qui remplit tout le cadre (extrémité violette du dégradé).
+await icone("icon-maskable-512.png", 512, { marge: 51, fond: "#833AB4" });
 
 console.log("Icônes générées dans public/icons/");

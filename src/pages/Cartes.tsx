@@ -61,7 +61,7 @@ export default function Cartes() {
   return (
     <div className="flex flex-col gap-4">
       <div className="flex items-center justify-between">
-        <h1 className="text-xl font-bold text-bleu-fonce">{deck.titre}</h1>
+        <h1 className="text-xl font-bold text-degrade-marque">{deck.titre}</h1>
         <Link to="/" className="text-sm font-medium text-bleu underline">
           Accueil
         </Link>
@@ -82,14 +82,14 @@ export default function Cartes() {
         className="h-2 w-full overflow-hidden rounded-full bg-tole"
       >
         <div
-          className="h-full rounded-full bg-bleu"
+          className="h-full rounded-full bg-degrade-marque"
           style={{ width: `${pourcentageMaitrise(session.niveaux)}%` }}
         />
       </div>
 
       {indexCarte === null ? (
         <div className="flex flex-col items-center gap-4 rounded-lg border border-tole bg-white p-6 text-center">
-          <p className="text-lg font-bold text-bleu-fonce">Jeu terminé !</p>
+          <p className="text-lg font-bold text-degrade-marque">Jeu terminé !</p>
           <p className="text-sm text-encre/70">
             Toutes les cartes de cette session sont maîtrisées. Revenez plus tard pour
             continuer à les consolider.
@@ -98,13 +98,13 @@ export default function Cartes() {
             <button
               type="button"
               onClick={recommencer}
-              className="min-h-11 flex-1 rounded-md bg-bleu px-3 text-sm font-semibold text-papier hover:bg-bleu-fonce"
+              className="min-h-11 flex-1 rounded-full bg-degrade-marque px-3 text-sm font-semibold text-papier shadow-sm"
             >
               Recommencer une session
             </button>
             <Link
               to="/"
-              className="flex min-h-11 flex-1 items-center justify-center rounded-md border border-bleu px-3 text-sm font-semibold text-bleu hover:bg-bleu/10"
+              className="flex min-h-11 flex-1 items-center justify-center rounded-full border-2 border-violet px-3 text-sm font-semibold text-violet hover:bg-violet/10"
             >
               Accueil
             </Link>
@@ -113,26 +113,34 @@ export default function Cartes() {
       ) : (
         <>
           {!retournee ? (
-            <button
-              type="button"
-              onClick={() => setRetournee(true)}
-              aria-label="Retourner la carte pour voir la réponse"
-              className="flex min-h-56 w-full flex-col items-center justify-center gap-3 rounded-xl border-2 border-bleu bg-white p-6 text-center shadow-sm"
-            >
-              <p className="text-lg font-semibold text-encre">{deck.cartes[indexCarte].recto}</p>
-              <span className="text-xs font-medium text-encre/60">
-                Touchez la carte pour voir la réponse
-              </span>
-            </button>
+            <div className="rounded-2xl bg-degrade-marque p-[3px] shadow-sm">
+              <button
+                type="button"
+                onClick={() => setRetournee(true)}
+                aria-label="Retourner la carte pour voir la réponse"
+                className="flex min-h-56 w-full flex-col items-center justify-center gap-3 rounded-[1rem] bg-white p-6 text-center"
+              >
+                <p className="text-lg font-semibold text-encre">
+                  {deck.cartes[indexCarte].recto}
+                </p>
+                <span className="text-xs font-medium text-encre/60">
+                  Touchez la carte pour voir la réponse
+                </span>
+              </button>
+            </div>
           ) : (
-            <div
-              aria-live="polite"
-              className="flex min-h-56 w-full flex-col items-center justify-center gap-3 rounded-xl border-2 border-bleu bg-bleu/5 p-6 text-center shadow-sm"
-            >
-              <p className="text-xs font-semibold uppercase tracking-wide text-bleu-fonce">
-                Réponse
-              </p>
-              <p className="text-lg font-semibold text-encre">{deck.cartes[indexCarte].verso}</p>
+            <div className="rounded-2xl bg-degrade-marque p-[3px] shadow-sm">
+              <div
+                aria-live="polite"
+                className="flex min-h-56 w-full flex-col items-center justify-center gap-3 rounded-[1rem] bg-white p-6 text-center"
+              >
+                <p className="text-xs font-semibold uppercase tracking-wide text-violet">
+                  Réponse
+                </p>
+                <p className="text-lg font-semibold text-encre">
+                  {deck.cartes[indexCarte].verso}
+                </p>
+              </div>
             </div>
           )}
 
@@ -141,14 +149,14 @@ export default function Cartes() {
               <button
                 type="button"
                 onClick={() => repondreEtSuivant(false)}
-                className="min-h-11 flex-1 rounded-md border-2 border-rouge px-3 text-sm font-semibold text-rouge hover:bg-rouge/10"
+                className="min-h-11 flex-1 rounded-full border-2 border-rouge px-3 text-sm font-semibold text-rouge hover:bg-rouge/10"
               >
                 À revoir
               </button>
               <button
                 type="button"
                 onClick={() => repondreEtSuivant(true)}
-                className="min-h-11 flex-1 rounded-md bg-bleu px-3 text-sm font-semibold text-papier hover:bg-bleu-fonce"
+                className="min-h-11 flex-1 rounded-full bg-degrade-marque px-3 text-sm font-semibold text-papier shadow-sm"
               >
                 Je savais
               </button>

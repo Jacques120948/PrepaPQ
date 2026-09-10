@@ -84,7 +84,7 @@ export default function Quiz() {
   return (
     <div className="flex flex-col gap-4">
       <div className="flex items-center justify-between">
-        <h1 className="text-xl font-bold text-bleu-fonce">{deck.titre}</h1>
+        <h1 className="text-xl font-bold text-degrade-marque">{deck.titre}</h1>
         <Link to="/" className="text-sm font-medium text-bleu underline">
           Accueil
         </Link>
@@ -161,7 +161,7 @@ function QuestionCourante({
               aria-checked={estSelectionnee}
               disabled={aRepondu}
               onClick={() => onChoisir(index)}
-              className={`min-h-11 rounded-md border-2 px-4 py-2 text-left text-sm font-medium text-encre ${style}`}
+              className={`min-h-11 rounded-xl border-2 px-4 py-2 text-left text-sm font-medium text-encre ${style}`}
             >
               {aRepondu && estLaBonneReponse ? "✓ " : null}
               {aRepondu && estSelectionnee && !estLaBonneReponse ? "✗ " : null}
@@ -180,7 +180,7 @@ function QuestionCourante({
           <button
             type="button"
             onClick={onSuivante}
-            className="min-h-11 rounded-md bg-bleu px-3 text-sm font-semibold text-papier hover:bg-bleu-fonce"
+            className="min-h-11 rounded-full bg-degrade-marque px-3 text-sm font-semibold text-papier shadow-sm"
           >
             {derniere ? "Voir les résultats" : "Question suivante"}
           </button>
@@ -202,8 +202,8 @@ function Resultats({ score, total, ratees, onRefaireRatees, onRecommencerTout }:
   const { note, couleur } = calculerNote(score, total);
 
   return (
-    <div className="flex flex-col items-center gap-4 rounded-lg border border-tole bg-white p-6 text-center">
-      <p className="text-lg font-bold text-bleu-fonce">Quiz terminé</p>
+    <div className="flex flex-col items-center gap-4 rounded-2xl border border-tole bg-white p-6 text-center shadow-sm">
+      <p className="text-lg font-bold text-degrade-marque">Quiz terminé</p>
       <p className="text-sm text-encre/70">
         {score} bonne{score > 1 ? "s" : ""} réponse{score > 1 ? "s" : ""} sur {total}
       </p>
@@ -219,7 +219,7 @@ function Resultats({ score, total, ratees, onRefaireRatees, onRecommencerTout }:
           <button
             type="button"
             onClick={() => onRefaireRatees(ratees)}
-            className="min-h-11 rounded-md border-2 border-rouge px-3 text-sm font-semibold text-rouge hover:bg-rouge/10"
+            className="min-h-11 rounded-full border-2 border-rouge px-3 text-sm font-semibold text-rouge hover:bg-rouge/10"
           >
             Refaire les {ratees.length} question{ratees.length > 1 ? "s" : ""} ratée
             {ratees.length > 1 ? "s" : ""}
@@ -228,13 +228,13 @@ function Resultats({ score, total, ratees, onRefaireRatees, onRecommencerTout }:
         <button
           type="button"
           onClick={onRecommencerTout}
-          className="min-h-11 rounded-md bg-bleu px-3 text-sm font-semibold text-papier hover:bg-bleu-fonce"
+          className="min-h-11 rounded-full bg-degrade-marque px-3 text-sm font-semibold text-papier shadow-sm"
         >
           Recommencer tout le quiz
         </button>
         <Link
           to="/"
-          className="flex min-h-11 items-center justify-center rounded-md border border-tole px-3 text-sm font-semibold text-encre hover:border-bleu"
+          className="flex min-h-11 items-center justify-center rounded-full border border-tole px-3 text-sm font-semibold text-encre hover:border-violet"
         >
           Accueil
         </Link>

@@ -1,15 +1,40 @@
 @import "tailwindcss";
 
 @theme {
-  --color-bleu: #1f4e79;
-  --color-bleu-fonce: #163a5c;
-  --color-rouge: #c00000;
-  --color-papier: #faf9f6;
-  --color-tole: #d8dce1;
-  --color-encre: #14263a;
+  --color-bleu: #3a86ff;
+  --color-bleu-fonce: #2f5fd1;
+  --color-rouge: #f5365c;
+  --color-papier: #faf8ff;
+  --color-tole: #e7e4f3;
+  --color-encre: #1a1730;
+
+  /* Extrémités du dégradé de marque, façon réseaux sociaux. */
+  --color-violet: #833ab4;
+  --color-orange-vif: #fcaf45;
 
   --font-sans: Arial, Helvetica, sans-serif;
   --font-narrow: "Arial Narrow", Arial, Helvetica, sans-serif;
+}
+
+@utility bg-degrade-marque {
+  background-image: linear-gradient(
+    135deg,
+    var(--color-violet) 0%,
+    var(--color-rouge) 55%,
+    var(--color-orange-vif) 100%
+  );
+}
+
+@utility text-degrade-marque {
+  background-image: linear-gradient(
+    135deg,
+    var(--color-violet) 0%,
+    var(--color-rouge) 55%,
+    var(--color-orange-vif) 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
 }
 
 @layer base {
