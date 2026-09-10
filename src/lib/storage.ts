@@ -147,11 +147,11 @@ export function lireDernierQuiz(
   return lireProgressionValide(deckId, version, nombreCartes)?.dernierQuiz ?? null;
 }
 
-export type FiltreMetier = Metier | "tous";
+export type FiltreMetier = Metier;
 
 export function chargerFiltreMetier(): FiltreMetier {
   const valeur = lireJson<FiltreMetier>(CLE_FILTRE_METIER);
-  return valeur === "tolier" || valeur === "peintre" ? valeur : "tous";
+  return valeur === "tolier" || valeur === "peintre" ? valeur : "tolier";
 }
 
 export function sauvegarderFiltreMetier(filtre: FiltreMetier): void {

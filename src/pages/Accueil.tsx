@@ -24,7 +24,6 @@ const IMAGE_METIER: Record<Metier, string> = {
 };
 
 const FILTRES: { valeur: FiltreMetier; libelle: string }[] = [
-  { valeur: "tous", libelle: "Tous" },
   { valeur: "tolier", libelle: "Tôlier" },
   { valeur: "peintre", libelle: "Peintre" },
 ];
@@ -37,7 +36,7 @@ export default function Accueil() {
     sauvegarderFiltreMetier(filtre);
   }, [filtre]);
 
-  const decksFiltres = decks.filter((deck) => filtre === "tous" || deck.metier === filtre);
+  const decksFiltres = decks.filter((deck) => deck.metier === filtre);
 
   const groupes: { metier: Metier; decks: Deck[] }[] = (["tolier", "peintre"] as const)
     .map((metier) => ({ metier, decks: decksFiltres.filter((d) => d.metier === metier) }))

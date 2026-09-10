@@ -118,8 +118,8 @@ describe("effacerProgressionJeu", () => {
 });
 
 describe("filtre métier", () => {
-  it("vaut « tous » par défaut", () => {
-    expect(chargerFiltreMetier()).toBe("tous");
+  it("vaut « tolier » par défaut", () => {
+    expect(chargerFiltreMetier()).toBe("tolier");
   });
 
   it("retrouve le filtre sauvegardé", () => {
@@ -139,6 +139,6 @@ describe("effacerProgressionLocale", () => {
       NIVEAU_MIN,
       NIVEAU_MIN,
     ]);
-    expect(chargerFiltreMetier()).toBe("tous");
+    expect(chargerFiltreMetier()).toBe("tolier");
   });
 });
