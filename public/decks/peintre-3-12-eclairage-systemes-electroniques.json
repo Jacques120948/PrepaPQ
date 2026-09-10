@@ -1,0 +1,98 @@
+{
+  "id": "peintre-3-12-eclairage-systemes-electroniques",
+  "titre": "Éclairage et systèmes électroniques du véhicule (module 3.12)",
+  "metier": "peintre",
+  "annee": 4,
+  "module": "Préparation PQ",
+  "version": "2026-09",
+  "cartes": [
+    { "recto": "Depuis le 1er janvier 2014 en Suisse, quelle obligation s'applique à tous les véhicules motorisés, 2-roues compris ?", "verso": "Rouler avec les feux allumés en permanence, y compris de jour." },
+    { "recto": "Rôle du réflecteur (catadioptre)", "verso": "Placé à l'arrière, souvent sur le pare-chocs, il réfléchit la lumière et signale la présence du véhicule à l'arrêt, par tous les temps, sans consommer d'énergie." },
+    { "recto": "Fonctionnement des feux de détresse", "verso": "Ils allument simultanément la totalité des clignotants pour signaler un danger aux autres usagers, et fonctionnent même si le contact n'est pas enclenché." },
+    { "recto": "Particularités des feux de brouillard", "verso": "Utilisés lors de brume ou de chutes de neige, intensité lumineuse plus forte que les feux habituels ; blancs ou jaunes à l'avant, rouges à l'arrière où ils signalent la présence du véhicule." },
+    { "recto": "Différence entre feux de croisement et feux de route", "verso": "Les feux de croisement éclairent sans éblouir les autres usagers ; les feux de route offrent une portée et une puissance maximales mais éblouissent, à utiliser seulement hors circulation en face." },
+    { "recto": "Trois points à respecter lors du changement d'une ampoule de phare", "verso": "Identifier l'ampoule à remplacer (puissance, intensité, type) ; ne pas toucher le verre avec la peau ; changer les ampoules par paire." },
+    { "recto": "Pourquoi ne faut-il pas toucher le verre d'une ampoule halogène avec les doigts ?", "verso": "Le gras de la peau crée un point chaud qui abîme le verre sous l'effet de la température et réduit fortement la durée de vie de l'ampoule." },
+    { "recto": "Que faut-il faire après le remplacement ou le démontage-remontage d'un phare avant, avant de livrer le véhicule ?", "verso": "Régler le phare à l'aide d'un réglophare." },
+    { "recto": "Tension utilisée par une ampoule automobile", "verso": "12 volts." },
+    { "recto": "À quoi sert le correcteur de hauteur des phares ?", "verso": "Il règle la hauteur de l'éclairage en fonction de la charge du véhicule, pour éviter d'éblouir les autres usagers." },
+    { "recto": "Intervalle conseillé pour changer les ampoules de phares avant", "verso": "Tous les 30'000 km ou tous les 2 ans." },
+    { "recto": "Des feux ne fonctionnent pas et les ampoules semblent en bon état : que vérifier en premier lieu ?", "verso": "L'état des fusibles." },
+    { "recto": "Que garder en permanence dans une voiture pour éviter un manque d'éclairage ?", "verso": "Un set d'ampoules et de fusibles de rechange." },
+    { "recto": "Principe « Input – Process – Output » en atelier : que représentent les trois étapes ?", "verso": "Input (entrée) : le matériel entrant pour la réparation. Process (activité) : la mise en œuvre, la transformation. Output (sortie) : le produit fini, réparé, et le matériel sortant." },
+    { "recto": "Exemple Input – Process – Output pour un phare défectueux", "verso": "Input : phare défectueux. Process : remplacer l'ampoule. Output : véhicule réparé et ampoule usagée." },
+    { "recto": "Rôle du système start & stop", "verso": "Coupe automatiquement le moteur à l'arrêt (feu rouge, embouteillage) et le redémarre au besoin, pour économiser le carburant." },
+    { "recto": "Rôle du régulateur de ralenti", "verso": "Régule la vitesse de ralenti du moteur afin de garder une vitesse constante sans émaner de gaz excessifs." },
+    { "recto": "Rôle de la sonde lambda", "verso": "Mesure la quantité d'oxygène dans les gaz d'échappement afin d'obtenir le bon mélange air/carburant." },
+    { "recto": "Rôle de l'ordinateur de bord", "verso": "Donne des indications telles que la consommation d'essence, les réglages du véhicule, l'autonomie, etc." },
+    { "recto": "Rôle du régulateur de vitesse (cruise control)", "verso": "Permet de fixer et maintenir une vitesse de croisière sans action du conducteur sur l'accélérateur." },
+    { "recto": "Rôle du réglage du siège avec mémorisation de position", "verso": "Permet de régler convenablement sa position de conduite et de la mémoriser pour la retrouver automatiquement." },
+    { "recto": "À quoi sert le contrôle de la pression des pneus ?", "verso": "À s'assurer que les pneus sont gonflés à la bonne pression, pour la sécurité et pour limiter la consommation de carburant." },
+    { "recto": "Rôle du témoin Check Engine (témoin moteur)", "verso": "Signale la détection d'une erreur sur le moteur ou ses systèmes associés, dont les sources peuvent être multiples." },
+    { "recto": "Rôle du système antiblocage (ABS)", "verso": "Évite aux roues de se bloquer en cas de freinage d'urgence, ce qui permet de garder la maîtrise directionnelle du véhicule." },
+    { "recto": "Rôle du système de commande des airbags", "verso": "Détecte un choc et permet le déploiement correct des airbags pour protéger les occupants." },
+    { "recto": "Rôle d'un système d'alarme antivol", "verso": "Déclenche une alarme lors d'une tentative de vol du véhicule." }
+  ],
+  "quiz": [
+    {
+      "question": "Qu'impose la législation suisse depuis le 1er janvier 2014 concernant l'éclairage des véhicules ?",
+      "options": ["Rouler feux allumés uniquement la nuit", "Rouler feux allumés en permanence, même de jour", "Installer obligatoirement des feux de jour à LED", "Allumer les feux de brouillard en toute circonstance"],
+      "reponse": 1,
+      "explication": "Depuis le 1er janvier 2014, tous les véhicules motorisés, y compris les 2-roues, doivent circuler feux allumés en permanence, de jour comme de nuit."
+    },
+    {
+      "question": "Quelle est la particularité des feux de détresse ?",
+      "options": ["Ils ne fonctionnent que le contact enclenché", "Ils allument un seul clignotant à la fois", "Ils allument simultanément tous les clignotants et fonctionnent même sans contact", "Ils remplacent les feux de croisement de nuit"],
+      "reponse": 2,
+      "explication": "Les feux de détresse utilisent simultanément la totalité des clignotants du véhicule pour signaler un danger, et fonctionnent même si le contact n'est pas enclenché."
+    },
+    {
+      "question": "Quelle couleur ont les feux de brouillard à l'arrière du véhicule ?",
+      "options": ["Blanche", "Jaune", "Rouge", "Bleue"],
+      "reponse": 2,
+      "explication": "Les feux de brouillard sont blancs ou parfois jaunes à l'avant, mais rouges à l'arrière où ils indiquent la présence d'un véhicule sur la route."
+    },
+    {
+      "question": "Lors du changement d'une ampoule de phare halogène, que faut-il éviter absolument ?",
+      "options": ["De changer les deux ampoules en même temps", "De toucher le verre avec les doigts", "De vérifier la puissance de l'ampoule", "De couper le contact avant l'intervention"],
+      "reponse": 1,
+      "explication": "Le gras déposé par les doigts sur le verre crée un point chaud qui l'abîme et réduit la durée de vie de l'ampoule ; il faut la manipuler par son culot."
+    },
+    {
+      "question": "Que faut-il faire impérativement après le remplacement d'un phare avant, avant de rendre le véhicule au client ?",
+      "options": ["Effacer les codes défauts électroniques", "Régler le phare à l'aide d'un réglophare", "Remplacer aussi le phare opposé", "Contrôler la pression des pneus"],
+      "reponse": 1,
+      "explication": "Un phare mal réglé peut éblouir les autres usagers ou mal éclairer la route : son réglage au réglophare est obligatoire avant la livraison du véhicule."
+    },
+    {
+      "question": "Quelle tension utilise une ampoule d'automobile classique ?",
+      "options": ["6 volts", "12 volts", "24 volts", "48 volts"],
+      "reponse": 1,
+      "explication": "Le réseau électrique standard d'une voiture de tourisme fonctionne en 12 volts, tension utilisée par ses ampoules."
+    },
+    {
+      "question": "Des feux ne s'allument plus alors que les ampoules semblent en bon état : quel est le premier réflexe ?",
+      "options": ["Remplacer directement les ampoules", "Vérifier l'état des fusibles", "Contrôler la batterie du véhicule", "Changer le faisceau électrique complet"],
+      "reponse": 1,
+      "explication": "Avant de remplacer des ampoules apparemment en bon état, il faut d'abord contrôler l'état des fusibles correspondants, cause fréquente de panne d'éclairage."
+    },
+    {
+      "question": "Dans le principe « Input – Process – Output » appliqué à l'atelier, que représente le « Process » ?",
+      "options": ["Le matériel entrant pour la réparation", "La mise en œuvre et la transformation du travail", "Le produit fini et réparé", "Le matériel sortant de l'entreprise"],
+      "reponse": 1,
+      "explication": "Input est l'entrée (matériel entrant), Process représente l'activité de transformation, et Output est la sortie (produit fini et déchets)."
+    },
+    {
+      "question": "Quel système mesure la quantité d'oxygène dans les gaz d'échappement pour ajuster le mélange air/carburant ?",
+      "options": ["Le régulateur de ralenti", "La sonde lambda", "Le système start & stop", "Le contrôle de pression des pneus"],
+      "reponse": 1,
+      "explication": "La sonde lambda mesure la teneur en oxygène des gaz d'échappement afin que le calculateur ajuste le mélange air/carburant."
+    },
+    {
+      "question": "Quel système évite aux roues de se bloquer lors d'un freinage d'urgence ?",
+      "options": ["Le système ABS", "Le régulateur de vitesse", "Le système de commande des airbags", "L'alarme antivol"],
+      "reponse": 0,
+      "explication": "Le système antiblocage (ABS) empêche le blocage des roues au freinage, ce qui préserve la maîtrise directionnelle du véhicule."
+    }
+  ]
+}
